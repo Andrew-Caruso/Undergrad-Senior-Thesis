@@ -27,11 +27,37 @@ def plot21cm_vs_k(model,rs,axis,colorName,i,j):
     y = rawData[:,2] #rowmin:rowmax, column 1 "21 cm power"
     axis[i,j].plot(x,y,color=colorName)
 
+def getRandP(model,index_k):
+    #get the redshift for the model
+    os.chdir(".//t21_power_data/t21_power_"+model+"/") #change to directory of the data
+    rs = (os.listdir()) #listdir returns a list: redshift list 
+    rs = [(x.replace("auto_t21_z=","")) for x in rs] #use comprehension to remove characters for loop 
+    rs = np.array(rs) #convert list to array
+    #callout(rs)
+    os.chdir("../..") #return back to original directory 
+    #get the powers for the model at every redshift corresponding to the chosen fixed k
+    power = [np.loadtxt(".//t21_power_data/t21_power_"+model+"/auto_t21_z="+x,skiprows=1,usecols=(2,))[index_k] for x in rs] #use comprehension to select out powers for the selected k (index) for every redshift
+    #i.e. go to every redshift, select the power corresponding to the chosen fixed k
+    power = np.array(power) #convert list to array
+    return rs, power 
+
+def minMax(model,redshift):
+    print(model+" redshifts:\n")
+    callout(redshift)
+    print(model+" min:",min(redshift))
+    print(model+" max:",max(redshift),"\n")
+
+def plot21cm_vs_z(f1,rs,ax,colorName,i,j):
+    new_rs = np.linspace(min(rs),max(rs),len(rs)) #create new redshifts array for the graph
+    new_power = f1(new_rs) #get the new 21cm power output from the function (previously built from interpolation)
+    ax[i,j].plot(new_rs,new_power,color=colorName)
+
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Program 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #PART 1: plot 21 cm power vs k at diff redshifts
+print("PART 1: 21cm Power vs k at different Redshifts")
     #create canvas (window) and pads (graph regions on the canvas)
 dim = 3 #dimensions of pads in canvas 
 fig,ax = plt.subplots(dim,dim)
@@ -39,6 +65,7 @@ fig,ax = plt.subplots(dim,dim)
 z0 = "04.7077"
 z1 = "07.0445"
 z2 = "10.0859"
+print("Chosen redshifts: ",z0," ",z1," ",z2,"\n")
 '''
 #rawDemo = np.loadtxt(".//t21_power_data/t21_power_democratic/auto_t21_z=07.0445",skiprows=0,max_rows=1,usecols=(2,))
 #callout(rawDemo)
@@ -73,25 +100,63 @@ ax[2,0].set_ylabel("z="+z2)
 #plt.show() 
 
 #PART 2: plot 21 cm power vs redshift at diff k 
-#use interpolate from scipy (to create function from data)
-    #get all redshifts (all models have same redshifts)
-os.chdir(".//t21_power_data/t21_power_fiducial/") #change to directory of the data
-redshift = (os.listdir()) #listdir returns a list
-redshift = [float(x.replace("auto_t21_z=","")) for x in redshift] #use comprehension to remove characters for loop 
-redshift = np.array(redshift) #convert list to array
-#callout(redshift)
-os.chdir("../..") #return back to original directory 
-    #get all available k values (all models and all redshifts have same k)
+print("PART 2: 21cm Power vs Redshift at different k")
+    #get all available k values (same for all models at all redshifts k)
 kNum = np.loadtxt(".//t21_power_data/t21_power_democratic/auto_t21_z="+z0,skiprows=1,usecols=(1,))
+#print("\nChoices of k:")
 #callout(kNum)
-    #choose a k
-index_k = 13
-kChosen = kNum[index_k] 
-print("Chosen k:",kChosen)
+    #choose wavenumbers k
+index_k = [43,95,130] #3 indices from 0 to 149
+kChosen = np.array([kNum[x] for x in index_k]) #append k values corresponding to chosen k and convert list to array
+print("Chosen k:",kChosen,"\n")
+    #create canvas/figure/window with 9 pads/axes/plots
+fig2,ax2 = plt.subplots(3,3)
+    #get all redshifts (not same for all models) and corresponding 21cm powers
+    #then interpolate original data to create function: power(redshift) at chosen k
+    #then using the function from interpolation and new redshift domain, plot the graph
     #democratic sources model
-
-#power21cm = [np.loadtxt(".//t21_power_data/t21_power_democratic/auto_t21_z="+x,skiprows=1,usecols=(2,))[index_k] for x in redshift]
-#callout(np.array(power21cm))
-
- 
-
+rsD, powerD0 = getRandP("democratic",index_k[0])
+powerD1 = getRandP("democratic",index_k[1])[1]
+powerD2 = getRandP("democratic",index_k[2])[1]
+rsD = rsD.astype(float) #convert redshift string array to float array
+f1_D0 = interpolate.interp1d(rsD,powerD0)
+f1_D1 = interpolate.interp1d(rsD,powerD1)
+f1_D2 = interpolate.interp1d(rsD,powerD2)
+#minMax("democratic",rsD)
+plot21cm_vs_z(f1_D0,rsD,ax2,"tab:blue",0,0)
+plot21cm_vs_z(f1_D1,rsD,ax2,"tab:blue",1,0)
+plot21cm_vs_z(f1_D2,rsD,ax2,"tab:blue",2,0)
+    #fiducial sources model 
+rsF, powerF0 = getRandP("fiducial",index_k[0])
+powerF1 = getRandP("fiducial",index_k[1])[1]
+powerF2 = getRandP("fiducial",index_k[2])[1]
+rsF = rsF.astype(float) #convert redshift string array to float array
+f1_F0 = interpolate.interp1d(rsF,powerF0)
+f1_F1 = interpolate.interp1d(rsF,powerF1)
+f1_F2 = interpolate.interp1d(rsF,powerF2)
+#minMax("fiducial",rsF)
+plot21cm_vs_z(f1_F0,rsF,ax2,"tab:green",0,1)
+plot21cm_vs_z(f1_F1,rsF,ax2,"tab:green",1,1)
+plot21cm_vs_z(f1_F2,rsF,ax2,"tab:green",2,1)
+    #oligarchic sources model
+rsO,powerO0 = getRandP("oligarchic",index_k[0])
+powerO1 = getRandP("oligarchic",index_k[1])[1]
+powerO2 = getRandP("oligarchic",index_k[2])[1]
+rsO = rsO.astype(float) #convert redshift string array to float array
+f1_O0 = interpolate.interp1d(rsO,powerO0)
+f1_O1 = interpolate.interp1d(rsO,powerO1)
+f1_O2 = interpolate.interp1d(rsO,powerO2)
+#minMax("oligarchic",rsO)
+plot21cm_vs_z(f1_O0,rsO,ax2,"tab:red",0,2)
+plot21cm_vs_z(f1_O1,rsO,ax2,"tab:red",1,2)
+plot21cm_vs_z(f1_O2,rsO,ax2,"tab:red",2,2)
+#print("comparison:\n",rsO==rsF) #proof that fiducial model and oligarchic model redshifts differ
+    #set labels for plot
+fig2.suptitle("21 cm Power vs Redshift")
+ax2[0,0].set_title("Democratic")
+ax2[0,1].set_title("Fiducial")
+ax2[0,2].set_title("Oligarchic")
+ax2[0,0].set_ylabel("k="+str(kChosen[0]))
+ax2[1,0].set_ylabel("k="+str(kChosen[1]))
+ax2[2,0].set_ylabel("k="+str(kChosen[2]))
+plt.show()
