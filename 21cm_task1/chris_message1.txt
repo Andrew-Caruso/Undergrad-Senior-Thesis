@@ -3,6 +3,11 @@ Hey Andrew, here are the 21 cm power results for the models I mentioned today - 
 tar -xvf tarfilename.tar.gz
 The power spectrum files themselves are text files with three columns - the second is the wave number k in h/Mpc, and the third is the 21 cm power, which has units of mK^2 (recall the 21 cm intensity is described in terms of a temperature).  Each folder has a whole bunch of files for different redshifts which are in the file names.  For now a good set of plots to make would be 21 cm power vs. k at several redshifts, and also 21 cm power vs. redshift at several fixed wave numbers (for the second you will find the scipy function interp1d to be quite helpful).  Later this week I'll put together a folder on Expanse for you with a more complete set of data, including the reionization histories for these models and the actual 21 cm brightness temperature fields.
 
+ADDENDUM 1: 
+Hi Andrew - this looks great!  A few suggestions:
+Generally, 21 cm power vs k is best visualized on a log-log plot
+The most interesting range of k for upcoming experiments is roughly 0.05 < k < 0.5, so you might only include that range on your x axis. 
+For the power vs redshift plots, you might try using k = 0.05, 0.1, and 0.5. 
 
 
 

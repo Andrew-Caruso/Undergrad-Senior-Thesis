@@ -1,3 +1,8 @@
+TASK 2: 
 Hey Andrew, sorry for the delay but I finally have the 21 cm fields on expanse for you, here: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/21cm_fields/.    You should be able to access the files there even though they are in my scratch directory.  They are separated into folders for each model, and have the same redshifts as the 21 cm power spectra.  They are binary files with N = 300^3 32-bit floats.  You can unpack and reshape the data into cubes with
 np.fromfile(filename,dtype=np.float32).reshape((N,N,N))
 where N = 300.  The units will be in mK^2.  Then you can make visualizations of 2d slices of the data using imshow, contourf, or pcolormesh from the matplotlib.pyplot library.  The point of making these plots will be to build intuition for how visual features in the maps connect to the power spectrum - e.g. in maps with larger ionized bubbles you will notice larger power at small wavenumbers.
+
+ADDENDUM 1: 
+Hey Andrew, I think the next step after making exploratory plots will be to get you set up with the code that calculates the 21 cm power spectrum.  This will be a little bit involved so I think it's best if we meet to go over it.  Unfortunately I'm stuck at home with covid right now, so we might have to meet via zoom.  Let me know when you'd like to meet to do that.
+Once you have the code working, we'll be able to start getting set up to do a mini convergence analysis on the 21 cm data we already have.  I'm hopeful that within a couple of months we will have what we need to run a test in a 1 Gpc/h box.  So the goal until then will be to get the pipeline for the analysis in place so that it's ready for the real results when they are ready.

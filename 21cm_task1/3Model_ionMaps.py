@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt #for plotting
 from scipy import interpolate 
 import numpy as np 
 import os 
+#to fix bug in part 1 (overlapping minor tick labels) do:
+from matplotlib import ticker
+formatter1 = ticker.ScalarFormatter(useMathText=True) #create object to scalar formatter class with fancy math text
+formatter1.set_scientific(True)
+formatter2 = ticker.LogFormatterSciNotation(labelOnlyBase=True)
+#now set all x/y axes and their major/minor ticks to use this formatter
+#https://atmamani.github.io/cheatsheets/matplotlib/matplotlib_2/#Placement-of-ticks-and-custom-tick-labels 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Functions 
@@ -97,16 +104,28 @@ ax[0,2].set_title("Oligarchic")
 ax[0,0].set_ylabel("z="+z0)
 ax[1,0].set_ylabel("z="+z1)
 ax[2,0].set_ylabel("z="+z2)
+#k of interest: ~0.05 to ~0.5 
+#use nested comprehension in lieu of nest for loops
+[[ax[i,j].set_xlim([0.05,0.5]) for j in range(3)] for i in range(3) ]
+#use log scale
+[[ax[i,j].set_xscale("log") for j in range(3)] for i in range(3) ]
+[[ax[i,j].set_yscale("log") for j in range(3)] for i in range(3) ]
+#fix x axis bug of overlapping minor tick labels 
+#first solution: make the x-axis minor tick labels super small
+#[[ax[i,j].tick_params(axis='x',which='both',labelsize='xx-small') for j in range(3)] for i in range(3) ]
+#second solution: changing x-axis minor tick labels to scientific notation
+[[ax[i,j].xaxis.set_minor_formatter(formatter2) for j in range(3)] for i in range(3) ]
 #plt.show() 
+
 
 #PART 2: plot 21 cm power vs redshift at diff k 
 print("PART 2: 21cm Power vs Redshift at different k")
     #get all available k values (same for all models at all redshifts k)
 kNum = np.loadtxt(".//t21_power_data/t21_power_democratic/auto_t21_z="+z0,skiprows=1,usecols=(1,))
-#print("\nChoices of k:")
-#callout(kNum)
+print("\nChoices of k:")
+callout(kNum)
     #choose wavenumbers k
-index_k = [43,95,130] #3 indices from 0 to 149
+index_k = [1,5,24] #3 indices from 0 to 149
 kChosen = np.array([kNum[x] for x in index_k]) #append k values corresponding to chosen k and convert list to array
 print("Chosen k:",kChosen,"\n")
     #create canvas/figure/window with 9 pads/axes/plots
@@ -159,4 +178,7 @@ ax2[0,2].set_title("Oligarchic")
 ax2[0,0].set_ylabel("k="+str(kChosen[0]))
 ax2[1,0].set_ylabel("k="+str(kChosen[1]))
 ax2[2,0].set_ylabel("k="+str(kChosen[2]))
+#change from linear scale to log scale
+[[ax2[i,j].set_xscale("log") for j in range(3)] for i in range(3) ]
+[[ax2[i,j].set_yscale("log") for j in range(3)] for i in range(3) ]
 plt.show()
