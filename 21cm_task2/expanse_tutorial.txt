@@ -1,0 +1,61 @@
+
+	WARNING: 
+NEVER run jobs in the home or login directory (i.e. the login node)  or you will be kicked
+	Therefore run jobs in scratch directory
+NEVER run python files (.py files) directly, 
+	Therefore send jobs (.pbs files) to SLURM to be executed
+	The jobs will execute the python files (by doing this in the bash script (.pbs file):
+		python myfile.py > data.out
+
+	NOTE:
+XSEDE (Extreme Science and Engineering Discovery Environment) is discontinued.
+It has been replaced by ACCESS (ADvanced Cyberinfrastructure Coordination Ecosystem: Services & Support).
+Expanse supercomputer (from the San Diego Supercomputer center) is still active as of 2023.  
+
+	COMMANDS (run on Expanse Supercomputer): 
+Command to run job: 
+sbatch jobfile.pbs
+
+Command to see queue:
+squeue -j jobID
+squeue -u username
+squeue --me 
+
+Command to access home directory: 
+cd $HOME
+
+Command to access scratch directory (if "scratch" enviro var is added to .bashrc):
+cd $SCRATCH
+
+Command to cancel job:
+scancel jobID
+
+Command to quit expanse (logout of expanse and return to local computer's shell):
+exit 
+
+Other commands see:
+https://www.sdsc.edu/support/user_guides/expanse.html#running 
+
+	COMMANDS (run on local computer NOT, repeat NOT on Expanse):
+Command to log onto expanse supercomputer via secure shell:
+ssh andrewcaruso@expanse.sdsc.xsede.org 
+OR 
+ssh andrewcaruso@expanse.sdsc.edu
+
+Command to secure copy (transfer files) between supercomputer login node and local computer 
+scp <username>@<host>:<path_to_files> <username>@<host>:<path_to_files>
+
+Command to secure copy a text file called "file1" from local computer to expanse:
+scp file1.txt andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/andrewcaruso/temp_project
+
+Command to secure copy a text file called "file2" from expanse to local computer:
+scp andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/andrewcaruso/temp_project/file2.txt ~/downloads 
+
+	KEY WORDS: 
+scratch directory = /expanse/lustre/scratch/userName/temp_project
+SLURM = coordinator/oganize that takes jobs and sends them to nodes to be run
+scratch directory = user's temporary directory to store pbs and py files
+1 node ~ 1 computer
+
+
+
