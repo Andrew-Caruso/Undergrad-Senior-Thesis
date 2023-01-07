@@ -1,0 +1,23 @@
+
+Chosen redshift: 06.9746
+Confirm chosen redshift is same for each model: True   True 
+
+fields_D
+type: <class 'numpy.ndarray'>
+dim: 3
+shape: (300, 300, 300)
+size: 27000000 
+
+x:
+type: <class 'numpy.ndarray'>
+dim: 1
+shape: (300,)
+size: 300 
+
+xy:
+type: <class 'numpy.ndarray'>
+dim: 2
+shape: (300, 300)
+size: 90000 
+
+output:  data_contourMap.pdf

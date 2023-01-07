@@ -6,3 +6,14 @@ where N = 300.  The units will be in mK^2.  Then you can make visualizations of 
 ADDENDUM 1: 
 Hey Andrew, I think the next step after making exploratory plots will be to get you set up with the code that calculates the 21 cm power spectrum.  This will be a little bit involved so I think it's best if we meet to go over it.  Unfortunately I'm stuck at home with covid right now, so we might have to meet via zoom.  Let me know when you'd like to meet to do that.
 Once you have the code working, we'll be able to start getting set up to do a mini convergence analysis on the 21 cm data we already have.  I'm hopeful that within a couple of months we will have what we need to run a test in a 1 Gpc/h box.  So the goal until then will be to get the pipeline for the analysis in place so that it's ready for the real results when they are ready.
+
+ADDENDUM 2:
+The power spectrum data is in mK^2 because it is basically an FFT of the convolution of the field with itself - also called the "auto" power spectrum (if you have two different fields that's a "cross" power spectrum).  So the square happens when the field is convolved with itself.  For the fields, you can reshape them using
+reshaped_field = np.fromfile(filename, dtype=np.float32).reshape((N,N,N))
+and the reshaped field will have x along the i index, y along the j index, etc.
+here N = 300
+The grid points are evenly spaced between 0 and 300 Mpc/h in all three directions
+also the field itself hasn't been FFT'ed or anything, so it's units are simply mK
++
+Fast Fourier transform (FFT) algorithm = computed discrete Fourier transform (DFT) or inverse (IDFT) of a sequence. Converts a signal between space/time domain to or from frequency domain. Faster than doing it by hand. 
+See convolution, autocorrelation, and cross-correlation 

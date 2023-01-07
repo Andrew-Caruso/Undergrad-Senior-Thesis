@@ -51,6 +51,15 @@ scp file1.txt andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/andrew
 Command to secure copy a text file called "file2" from expanse to local computer:
 scp andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/andrewcaruso/temp_project/file2.txt ~/downloads 
 
+Command to secure copy commandPost_21cm_fields.py from expanse to local computer 
+RUN THE COMMAND ON LOCAL REPEAT LOCAL COMPUTER NOT EXPANSE. Also note you need the current local directory . or some local directory following the space after the expanse directory/file
+scp andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/ccain002/temp_project/for_andrew/21cm_fields/commandPost_21cm_fields.py $ION/21cm_task2/folderExpanse_task2/task2_expanse_inputFiles . 
+
+Command to secture copy commandPost_21cm_fields.py from local computer to expanse
+RUN THE COMMAND ON LOCAL REPEAT LOCAL COMPUTER NOT EXPANSE
+scp commandPost_21cm_fields.py andrewcaruso@login.expanse.sdsc.edu:/expanse/lustre/scratch/ccain002/temp_project/for_andrew/21cm_fields
+
+
 	KEY WORDS: 
 scratch directory = /expanse/lustre/scratch/userName/temp_project
 SLURM = coordinator/oganize that takes jobs and sends them to nodes to be run

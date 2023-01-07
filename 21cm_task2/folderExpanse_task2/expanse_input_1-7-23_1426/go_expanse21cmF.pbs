@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name="21FIELD"
+#SBATCH --output="21FIELD.%j.%N.out"
+#SBATCH -A TG-PHY210041
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=24
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+#SBATCH --mail-user=acaru004@ucr.edu
+#SBATCH --constraint="lustre"
+
+python commandPost_21cm_fields.py > data.out
