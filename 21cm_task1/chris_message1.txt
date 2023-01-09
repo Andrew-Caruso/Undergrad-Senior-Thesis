@@ -24,7 +24,7 @@ Brightness temperature = black body's temperature to produce same specific inten
 For physicists:
 Flux = projected field strength summed over an area 
 Intensity = power / area 
-Irradiance = flux / solid angle = power / area / solid angle
+Radiance = flux / solid angle = power / area / solid angle
 
 Black body = perfect emitter and absorber but zero reflection 
 Grey body = imperfect emitter, absorber, and reflector

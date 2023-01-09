@@ -182,3 +182,4 @@ ax2[2,0].set_ylabel("k="+str(kChosen[2]))
 [[ax2[i,j].set_xscale("log") for j in range(3)] for i in range(3) ]
 [[ax2[i,j].set_yscale("log") for j in range(3)] for i in range(3) ]
 plt.show()
+

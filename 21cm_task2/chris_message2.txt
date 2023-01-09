@@ -17,3 +17,6 @@ also the field itself hasn't been FFT'ed or anything, so it's units are simply m
 +
 Fast Fourier transform (FFT) algorithm = computed discrete Fourier transform (DFT) or inverse (IDFT) of a sequence. Converts a signal between space/time domain to or from frequency domain. Faster than doing it by hand. 
 See convolution, autocorrelation, and cross-correlation 
+
+ADDENDUM 3:
+The only thing is that what you're plotting in those maps isn't the power spectrum - it is just a straight map of the brightness temperature (intensity) itself.  To get a power spectrum you have to take an FT of the brightness temperature field.  What i'd suggest doing now is studying how the maps compare to the power spectrum to solidify your intuition for how the two relate.
