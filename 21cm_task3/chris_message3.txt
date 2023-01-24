@@ -1,0 +1,65 @@
+TASK 3:
+So just to summarize the remaining two steps:
+You'll need to modify the make_power_spec_t21_Nakul_v2.py file to run with your setup.  The code basically finds a set of t21 fields, loops over them and re-writes/re-compiles the fortran code and runs it for each field.  The main things you'll need to change are (1) the part of the code that identifies the redshifts and (2) the paths for input and output.  Once this is done you'll be able to run the python code once for each model.  Important: don't have more than one of these runs going at once, or the same fortran files will get overwritten by two different jobs!
+Next, you'll need to write code that "chops up" the existing brightness temperature fields into smaller sub-volumes, and outputs those into files that the fortran code can read (same format as the existing files).  For instance, for a 150 Mpc/h box size, you could divide the field into 2^3 sub-volumes with side length 150, and for 75 Mpc/h you'd have 4^3 sub-volumes.  Then modify the make_power_spec code to loop over these and get the power spectra for the sub-volumes.  Note: this will involve changing the "n" and "boxsize" parameters in mainbody_t21.f90 to match your sub-volume size. 
+When this is done, we'll do the convergence analysis with that data set (which will be the easy part) and hopefully by then there will be some production or pre-production data available with the 1 Gpc/h volume.  Scaling up to that will be relatively easy because you will have the code in place already.
+
+
+
+ADDENDUM 1:
+Scratch directory is temporary storage (deletes every few months or so)
+To back up all the data and files, copy them to your folder (andrewcaruso) in the project directory:
+/expanse/lustre/projects/uot171
+i.e. 
+/expanse/lustre/projects/uot171/andrewcaruso is Valhalla 
+
+
+ADDENDUM 2:
+	Pertinent folders:
+powers (consist of all the data python and job scripts)
+fftw-3.3.9 (fast Fourier transform tools to be referenced to change 21cm power (mK) to 21cm power spectrum (mK^2))
+
+	Pertinent files:
+go_t21_power.pbs (job script to run generate the 21cm power spectrum manually via FORTRAN code (mainbodu_t21.f90 or automatically via Nakul's python code) 
+
+make_power_spec_t21_Nakul_v2.py (code that will access the 21cm fields data and needs to be iterated upon)
+
+mainbody_t21.f90 (includes the directory of the data, in FORTRAN NOT PYTHON) the previous python file references this file for brevity
+
+	Dependences (required but not edited by me)
+gas_cube
+mainbody.f90~
+powers_t21.f90
+powers.x
+powers_t21.x 
+nrtype.f90
+mainbody_t21.f90
+
+
+
+ADDEDNUM 3:
+2 types of data: 
+21cm (brightness temperature) fields (mK) as in task 2 plots
+21cm power spectrum (after fast Fourier transform of the fields) as in task 1 plots "power" which is actual power spectrum
+
+To get all the data: 
+Taken in the field data, do FFT on them to get power spectrum for each redshift for each model
+
+
+ADDEDNUM 4:
+Take the 300x300x300 (Mpc/h box) and subdivide it into
+150 Mpc sections (8 cubes)
+75 Mpc sections (64 cubes) 
+For each 21cm brightness temperature field file (for every redshift and for every model) 
+For each cube (sub volume) save a new field
+Thus every sub volume or cube is extracted as a file
+e.g.
+Divide into 8 subvolues (150, 1,2,3,4,5,6,7,8 at redshift z = 10.95 for fiducial model
+Take sub volume 8 and export as 
+t21_z=10.95_sv=150_1 
+
+The file type: binary files of 32-bit float with three columns 
+
+Also remember to change the N parameter (size of box) in the fortran code via the python code
+
+

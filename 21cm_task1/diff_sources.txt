@@ -1,15 +1,15 @@
 democratic sources:
     same ionizing emissivity for all DM halos, independent of luminosity 
-    At z=6, 50% ionizing emissivity from 1E9 M_sol/h to 1.8E9 M_sol/h
+    At z=6, 50% ionizing emissivity from 1E9 M_sol/h to 1.8E9 M_sol/h (smaller)
     ionizing sources below current detectability 
 
 Fiducial sources:
     ionizing emissivity scales with UV luminosity for each halo 
-    At z=6, 50% ionizing emissivity from 1E9 M_sol/h to 1.8E10 M_sol/h
+    At z=6, 50% ionizing emissivity from 1E9 M_sol/h to 1.8E10 M_sol/h (bigger)
     commonly used in simulation models 
     
 Oligarchic sources 
     bright and massive sources "oligarchs" dominate reionization 
-    At z=6, ionizing emissivity from 2E10 M_sol/h to ??? M_sol/h
+    At z=6, ionizing emissivity from 2E10 M_sol/h to ??? M_sol/h (very big) 
     ionizing sources mostly have been observed 
     

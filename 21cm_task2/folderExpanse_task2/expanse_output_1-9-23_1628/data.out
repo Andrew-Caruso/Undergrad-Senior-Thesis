@@ -1,0 +1,86 @@
+
+Chosen redshift: 04.7077
+fields_D
+type: <class 'numpy.ndarray'>
+dim: 3
+shape: (300, 300, 300)
+size: 27000000 
+
+
+Chosen z axis distance: 10 Mpc/h
+
+x:
+type: <class 'numpy.ndarray'>
+dim: 1
+shape: (300,)
+size: 300 
+
+xy_D:
+type: <class 'numpy.ndarray'>
+dim: 2
+shape: (300, 300)
+size: 90000 
+
+xy_D min:  0.0  xy_D max:  8.932309
+xy_F min:  0.0  xy_F max:  0.0
+xy_O min:  0.0  xy_O max:  0.0
+maximum: 8.932309
+minimum: 0
+
+Chosen redshift: 07.0445
+fields_D
+type: <class 'numpy.ndarray'>
+dim: 3
+shape: (300, 300, 300)
+size: 27000000 
+
+
+Chosen z axis distance: 10 Mpc/h
+
+x:
+type: <class 'numpy.ndarray'>
+dim: 1
+shape: (300,)
+size: 300 
+
+xy_D:
+type: <class 'numpy.ndarray'>
+dim: 2
+shape: (300, 300)
+size: 90000 
+
+xy_D min:  0.0  xy_D max:  46.96775
+xy_F min:  0.0  xy_F max:  44.566322
+xy_O min:  0.0  xy_O max:  72.79446
+maximum: 72.79446
+minimum: 0
+
+Chosen redshift: 10.0859
+fields_D
+type: <class 'numpy.ndarray'>
+dim: 3
+shape: (300, 300, 300)
+size: 27000000 
+
+
+Chosen z axis distance: 10 Mpc/h
+
+x:
+type: <class 'numpy.ndarray'>
+dim: 1
+shape: (300,)
+size: 300 
+
+xy_D:
+type: <class 'numpy.ndarray'>
+dim: 2
+shape: (300, 300)
+size: 90000 
+
+xy_D min:  0.0  xy_D max:  69.39919
+xy_F min:  0.0  xy_F max:  70.874435
+xy_O min:  0.0  xy_O max:  89.71263
+maximum: 89.71263
+minimum: 0
+
+output:  data_contourMap.pdf

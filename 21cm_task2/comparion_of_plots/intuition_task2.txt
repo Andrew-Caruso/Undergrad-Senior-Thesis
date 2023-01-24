@@ -1,0 +1,32 @@
+How do the brightness temepratures compares to the power spectrum (for different models)? 
+
+
+	21cm Power vs Redshift:
+at lower k there is a more defined cusp at redshift ~ 8
+at higher k the cusp smoothes out into a dip
+
+In order form least cusp behavior from most cusp behavior: oligarchic, democratic, fiducial  
+democratic and fiducial models are more similar than compared to oligarchic 
+
+For all the models, they generally capture that at low redshift the 21 power increases very faster but the power reaches a local max ~7 then dips or runs down a cusp at ~8 then continues to increase
+
+
+	21cm Power vs k
+at low redshift the 21cm power spectrum shifts down to smaller power 
+at high redshift the 21cm power spectrum shifts up to higher power 
+
+at low redshift 21cm power is more rough
+at high redshift 21cm power is more smooth
+
+oligarchic model breaks at low redshift (becomes unexpectedly linear) 
+
+in all models the 21cm power increases with increasing k (or decreasing wavelength) 
+
+k relates to observed wavelength (since 21cm wavelength from H1 "neutral H" is redshifted to higher waelengths)
+
+	21cm Brightness Temperature contour maps at different redshifts
+at low redshift the temperature is homogenous and very cold 0-10 mK
+at high redshift the temperature is patchy and warm 25-35 mK
+
+democratic has least (ionization, ionized H, HII) holes, fiducial has more and oligarchic has the most
+
