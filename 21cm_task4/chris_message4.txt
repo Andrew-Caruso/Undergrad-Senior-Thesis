@@ -1,0 +1,28 @@
+TASK 3:
+
+	First figure out if the job runs slower with 2 nodes, if it is slower go back to 28 nodes (adjusting other parameters accordingly, see addendum 1). If it is faster than use it. 
+	Second, complete the objective using a convergence test with the current data, for all redshifts, all models, and cuts of 150,100,75. This will involve making plots of power spectrum vs k plots (at a chosen redshift) for each model and cut. Each plot will consist of four curves. 
+	e.g. at z = 0.4 have plots of democratic-150, democratic-100, democratic-75, fiducial-150, fiducial-100, fiducial-75, and oligarchic-150, oligarchic-100, oligarchic-75, thus 9 plots for a chosen redshift z. 
+	For one plot: 
+1st curve will be the total box power spectrum as a function of k for the chosen z 
+2nd curve will be the average spectrum of all small boxes as a function of k for the chosen z and cut 
+3rd curve will be 1st positive STD of the small boxes as a function of k for the chosen z and cut
+4th curve will be 1st negative STD of the small boxes as a function of k for the chosen z and cut 
+Where smaller boxes denotes the chopped power spectra
+And the total box is the original power spectra 
+Also, the two STD curves form a range of STD from the average small box curve
+	The objective:
+Find the smallest box sizes for each cut (150,100,75) such that the average curve is closer to the total power spectrum curve and the STD range is smallest (the STD curves are closest). Basically want to find the smallest box size such that the 21cm radiation power spectrum is mostly homogenous at different scales, as expected, as a starting point for future simulations of reionization epoch. 
+	Typical behavior 
+SEE "minimum size of 21-cm simulations" or the smallbox.pdf in task 1 folder preliminary reading in figures 2,3,6, but primarily figure 6. The paper only does one model of deionization and using numerical/psuedo-simulation methods. But we will using three models instead of 1 and also a full simulation.
+
+
+ADDENDUM 1:
+Regarding the job script, 
+need ntask-per-node = OMP_NUM_THREADS
+and need memory = 2*ntasks-per-node
+Also, added memory to specify exact number of nodes
+
+ADDENDUM 2:
+For the future convergence analysis of the 21cm radiation (power spectrum), instead of the democratic, oligarchic, and fiducial dark matter halo models, it will instead ionizing sources such as rare quasars, bright galaxies, and dim galaxies. But the simulation of a 100 G parsec box has poor dark matter halo resolution, with the smallest halos being 10^11. 
+
