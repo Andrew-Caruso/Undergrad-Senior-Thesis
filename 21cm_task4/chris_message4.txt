@@ -26,3 +26,12 @@ Also, added memory to specify exact number of nodes
 ADDENDUM 2:
 For the future convergence analysis of the 21cm radiation (power spectrum), instead of the democratic, oligarchic, and fiducial dark matter halo models, it will instead ionizing sources such as rare quasars, bright galaxies, and dim galaxies. But the simulation of a 100 G parsec box has poor dark matter halo resolution, with the smallest halos being 10^11. 
 
+ADDEDNUM 3: 
+I think I would start by just picking a few representative redshifts to make the plots at.  For these models you might try z = 6, 7, and 8.5, corresponding to roughly 80%, 50%, and 20% ionized fractions.  The plot I had imagined would have 21 cm power vs. k for the full 300 box as a solid line, the average power over the smaller boxes as a dashed line, and the +/- 1 sigma deviations from the average as a shaded region around the dashed line. 
+
+For the +/- 1 sigma, you'll want to calculate the standard deviation of Delta_21 for all the sub-volumes separately at each k value.  You might also try computing the standard deviation of log10(Delta_21) to see how this compares - it may "behave" better than the standard deviation of Delta_21
+
+The next step will be to plot the 21 cm power at a fixed wavenumber as a function of redshift and/or global ionized fraction.  We can make a similar plot of this nature centered at one or two target k values for 21 cm experiments (k = 0.2 for example) (edited) 
+
+here's an example of what a plot like that would look like (note I'm only plotting values here for the full box).  These are for k = 0.1 and are plotted vs. global ionized fraction (SEE PDF for image of this graph) 
+
