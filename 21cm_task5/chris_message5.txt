@@ -1,0 +1,13 @@
+TASK 5:
+
+Perform convergence test on the new data
+
+
+
+
+
+ADDENDUM 1: 
+
+Hi Andrew, I've made some progress getting a 1 Gpc/h run finished - so far I've managed to get one to run to an ionized fraction of about 27%, which should be high enough for you to start looking at convergence of the 21 cm power.  I am putting the t21 field on expanse for you here: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/1GPCh/.
+
+Note that this field has 1024^3 resolution elements.  I also used a very extreme source model which should produce very large ionized bubbles - moreso than the most extreme model I've given you so far.  In fact, it will be interesting to see what the 21 cm power for the entire box is, convergence tests aside (edited) 
