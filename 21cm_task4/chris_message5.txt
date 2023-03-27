@@ -4,8 +4,5 @@ Finals edits for task 4 program:
 
 2. Change x axis to be k values 0.1 to 0.5 
 
-3. Create the same plots but now at fixed k varying z
-
-Then move on to the final task (applying to the new data)
 
 

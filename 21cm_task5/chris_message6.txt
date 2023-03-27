@@ -1,11 +1,13 @@
 TASK 5:
 
+1. Create the same plots but now at fixed k varying z
+
+2. Then move on to the final task (applying to the new data)
+
 Perform convergence test on the new data
 i.e. take the 21cm fields, convert them to power spectra then make the fix k vary z and fix z vary k plots for 2 models
 
 The 2 models will be oligarchic and extreme oligarchic 
-
-
 
 
 ADDENDUM 1: 
