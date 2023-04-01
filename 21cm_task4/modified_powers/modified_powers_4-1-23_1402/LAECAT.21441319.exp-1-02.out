@@ -1,0 +1,10 @@
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic
+chosen wavenumbers: [0.083776, 0.16755, 0.3351]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.083776
+output plot:  plot_cut75_k=0.083776.pdf
+Average wavenumber computation time: 20.35207486152649  seconds
+
+ 
+ 
