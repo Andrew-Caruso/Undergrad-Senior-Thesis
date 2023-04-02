@@ -1,0 +1,22 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+export PATH
+SCRATCH=/expanse/lustre/scratch/andrewcaruso/temp_project/ 
+export SCRATCH
+SCRATCH2=/expanse/lustre/scratch/ccain002/temp_project/for_andrew/21cm_fields/
+export SCRATCH2
+VALHALLA=/expanse/lustre/projects/uot171/andrewcaruso
+export VALHALLA
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+module load anaconda3

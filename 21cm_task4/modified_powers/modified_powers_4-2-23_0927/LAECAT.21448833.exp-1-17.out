@@ -1,0 +1,84 @@
+convergenceTest2.py:202: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig,ax = plt.subplots(1,1)
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic
+chosen wavenumbers: [0.083776, 0.16755, 0.3351]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.083776
+output plot:  plot_cut75_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.16755
+output plot:  plot_cut75_k=0.16755.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.3351
+output plot:  plot_cut75_k=0.3351.pdf
+chosen wavenumbers: [0.083776, 0.20944, 0.29322]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.083776
+output plot:  plot_cut150_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.20944
+output plot:  plot_cut150_k=0.20944.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.29322
+output plot:  plot_cut150_k=0.29322.pdf
+chosen wavenumbers: [0.12566, 0.1885, 0.31416]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.12566
+output plot:  plot_cut100_k=0.12566.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.1885
+output plot:  plot_cut100_k=0.1885.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.31416
+output plot:  plot_cut100_k=0.31416.pdf
+Average wavenumber computation time: 66.26784364382426  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial
+chosen wavenumbers: [0.083776, 0.16755, 0.3351]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.083776
+output plot:  plot_cut75_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.16755
+output plot:  plot_cut75_k=0.16755.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.3351
+output plot:  plot_cut75_k=0.3351.pdf
+chosen wavenumbers: [0.083776, 0.20944, 0.29322]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.083776
+output plot:  plot_cut150_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.20944
+output plot:  plot_cut150_k=0.20944.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.29322
+output plot:  plot_cut150_k=0.29322.pdf
+chosen wavenumbers: [0.12566, 0.1885, 0.31416]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.12566
+output plot:  plot_cut100_k=0.12566.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.1885
+output plot:  plot_cut100_k=0.1885.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.31416
+output plot:  plot_cut100_k=0.31416.pdf
+Average wavenumber computation time: 49.51109584172567  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic
+chosen wavenumbers: [0.12566, 0.1885, 0.31416]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.12566
+output plot:  plot_cut100_k=0.12566.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.1885
+output plot:  plot_cut100_k=0.1885.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.31416
+output plot:  plot_cut100_k=0.31416.pdf
+chosen wavenumbers: [0.083776, 0.20944, 0.29322]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.083776
+output plot:  plot_cut150_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.20944
+output plot:  plot_cut150_k=0.20944.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.29322
+output plot:  plot_cut150_k=0.29322.pdf
+chosen wavenumbers: [0.083776, 0.16755, 0.3351]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.083776
+output plot:  plot_cut75_k=0.083776.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.16755
+output plot:  plot_cut75_k=0.16755.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.3351
+output plot:  plot_cut75_k=0.3351.pdf
+Average wavenumber computation time: 133.62691577275595  seconds
+
+ 
+ 

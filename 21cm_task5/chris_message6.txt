@@ -1,9 +1,5 @@
 TASK 5:
 
-1. Create the same plots but now at fixed k varying z (like task 4 but now vary z with fixed k instead of varying k with fixed z) 
-
-2. Then move on to the final task (applying to the new data)
-
 Perform convergence test on the new data
 i.e. take the 21cm fields, convert them to power spectra then make the fix k vary z and fix z vary k plots for 2 models
 

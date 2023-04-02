@@ -1,8 +1,14 @@
-Finals edits for task 4 program:
+Finals edits for task 4 P vs K program:
 
 1. Change D^2(k) to mk^2 on y axis 
 
 2. Change x axis to be k values 0.1 to 0.5 
+
+Task 4 P vs Z program: 
+
+1. Create the same plots but now at fixed k varying z (like previous part in task 4 but now vary z with fixed k instead of varying k with fixed z) 
+
+2. Then move on to the final task (applying to the new data)
 
 
 
