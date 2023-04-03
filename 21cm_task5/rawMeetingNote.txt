@@ -1,0 +1,40 @@
+quasar driven (more oligarchic) the three files (Not z=10)
+fixed z look at k 
+1 Gpc 
+more cut (powers of 2) 
+will be slow s 
+
+lowest halo mass model (bright galaxies) = oligarchic 
+
+doing worst case analysis 
+
+21cm people want 95% accuracy 
+aim: 25% from average 
+
+could get exact k values use interpolate 
+using:  scipy interp1d 
+target k = 0.2 (lowest k that HERA has contraints, with best constraints) 
+delta 21 ~ 500 
+could find delta 21 ~ 100 (could be detected later) 
+
+fix P vs K plots 
+restrict y axis, get rid of drop off
+want to see the peak (ionization bubble) 
+
+new plot 
+can divide total power by average to get error graph  
+total power will be 1 across 
+
+
+paper:
+intro - 21 cm reionization (look at 21cm papers, like HERA), lead into what you will do (convergence, simulation, how big do box need to be to capture all power)  
+methods/procedure - parameters of simulation, halo mass, models, and physical meaning of models, (driver of ionization). Mainly: what are models, how they are set up, meaning, and simulation box (1 Gpc, MPgadget?). Broad details. Describe wwhat you did to get the plots (not how you got the fields) 
+results - (2 sections: 1. 300 Mpc box stuff (more z, models) and 2. 1 Gpc box 
+conclusion 
+
+focus on mostly intro and result
+
+to do: 
+introduction (akriv.org, 21cm reionization )
+getting result 
+

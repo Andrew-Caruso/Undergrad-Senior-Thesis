@@ -1,0 +1,36 @@
+TASK 5
+
+
+1. Make adjustments to task 4
+	* restrict y axis to only include the peaks (causes by deionization bubbles) 
+	* instead of extracting k corresponding to chosen k, use interpolation to get exact k via via from scipy.interpolate import interp1d
+	* create new plots for error (how well the average power converges to total power) by dividing the total power by each plot (tot, avg, and stds)
+
+
+2. Make Power vs K plots and Error plots for new extreme oligarchic data (z=6 with a 1Gpc box) for cuts by powers of 2 (e.g. 1/2 Gpc, 1/4Gpc, etc). Note that the runtime will be long because the data is bigger. See the paper in task 1 under prelim_reading for delta. 
+
+
+3. Work on the paper introduction 
+
+4. Finish getting further results and finish writing the paper 
+
+
+ADDENDUM 1:
+
+The new data is for a 1Gpc box with three models: oligarchic, intermediate oligarchic, and extreme oligarchic.
+The extreme oligarchic model are massive DM halos, with quasars driving reionization.
+The intermediate model is well intermediate DM halos between the two. 
+The oligarchic model is smaller DM halos (but still very large), with bright galaxies driving reionization. 
+
+Essentially, will be looking at the worst-case scenarios (oligarchic models). The current target wavenumber is 0.2 (lowest k which HERA has best constraints on). They want a delta of 500, but we could find a delta of 100, which may be found later experimentally. 
+
+ADDEDNUM 2:
+
+For the paper:
+
+Introduction consists of 21cm deionization background information, leading into the convergence test, simulation, and ultimately the question of how big of a simulation box do you need to capture all the 21cm power.
+
+Methods/procedure consists what the models are, how they are set up (the parameters involved), their physical meaning (drivers of reionization), and the simulation box details. Want to give broad details of what you did to get the plots instead of how the fields are generated. 
+
+Results consists of two sections one for the 300 Mpc box and another for the 1 Gpc box. 
+
