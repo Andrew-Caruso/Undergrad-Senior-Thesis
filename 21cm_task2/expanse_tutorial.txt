@@ -1,3 +1,5 @@
+To find more information see:
+SLURM commands 
 
 	WARNING: 
 NEVER run jobs in the home or login directory (i.e. the login node)  or you will be kicked
@@ -20,6 +22,14 @@ Command to see queue:
 squeue -j jobID
 squeue -u username
 squeue --me 
+
+Command to see time for job to run (if waiting in queue):
+squeue --me --start 
+squeue -u username --start 
+
+To iterate this command ever 3 seconds do:
+squeue -u username --start --iterate=3
+then you can use ctrl-c to stop
 
 Command to access home directory: 
 cd $HOME
