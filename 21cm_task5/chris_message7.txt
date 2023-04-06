@@ -24,7 +24,7 @@ The oligarchic model is smaller DM halos (but still very large), with bright gal
 
 Essentially, will be looking at the worst-case scenarios (oligarchic models). The current target wavenumber is 0.2 (lowest k which HERA has best constraints on). They want a delta of 500, but we could find a delta of 100, which may be found later experimentally. 
 
-ADDEDNUM 2:
+ADDEDNUM 1:
 
 For the paper:
 
@@ -33,4 +33,48 @@ Introduction consists of 21cm deionization background information, leading into 
 Methods/procedure consists what the models are, how they are set up (the parameters involved), their physical meaning (drivers of reionization), and the simulation box details. Want to give broad details of what you did to get the plots instead of how the fields are generated. 
 
 Results consists of two sections one for the 300 Mpc box and another for the 1 Gpc box. 
+
+
+ADDEDNUM 2:
+
+1 Gpc = 1000 Mpc/h
+Because 1E-9 Gpc = 1 pc = 1E-6 Mpc 
+Cuts: 500, 250, 125 (all in units of Mpc/h)
+
+MODELS: oligarchic, extreme, intermediate  
+
+
+File format types:
+
+'auto_21cm_z=04.4789' = power spectrum file denoted by auto 
+
+t21_field.0:100,0:100,100:200 = cut file (see high dir to determine at what z, cut, and model
+
+1GPCh_fields/extreme/'t21_field.z=06.9746' = mainFolder/modelName/21cmFieldFile (original data) 
+
+
+
+ADDENDUM 4: 
+
+Q: I assume N is the number of cells? When making the cuts, should it cut the number cells then?
+
+A: you can do it either way.  L = 500 will be N = 512, L = 250 will be N = 256, etc.
+but you do have to be careful that L and N are no longer the same number
+The box is exactly 1 Gpc/h, but the cells are not exactly 1 Mpc/h as they were before
+ they are 1 Gpc/h but they have N = 1024^3
+
+Number of cells N != length of box L
+
+Apparently the simulation for the 1 Gpc/h box has the number of cells as N = 1024^3
+Unlike before with the 1 Mpc/h box, N = 1^2. But now they are different. 
+
+
+L = 1 Gpc/h = 1000 Mpc/h
+N = 1024 cells
+Physical volume of box = 1000^3 (Mpc/h)^3
+Computational/cell volume of box = 1024^3 
+
+Need to get N carefully for each cut
+Physical uts: 500, 250, 125 (all in units of Mpc/h) = L = 1000/2, 1000/4, 1000/8
+Cell cuts: = 512, 256, 128, = N = 1024/2, 1024/4, 1024/8 
 
