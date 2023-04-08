@@ -1,0 +1,327 @@
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:205: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig,ax = plt.subplots(1,1) #for P vs z plot
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:266: RuntimeWarning: invalid value encountered in true_divide
+  P_max2 = [P_max[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:267: RuntimeWarning: invalid value encountered in double_scalars
+  P_avg2 = [P_avg[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:268: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdn2 = [P_stdn[i]/P_max[i] for i in range(len(P_max))]
+convergenceTest2.py:269: RuntimeWarning: invalid value encountered in double_scalars
+  P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.1
+output plot:  plot_cut75_k=0.1.pdf
+output plot:  error_plot_cut75_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.2
+output plot:  plot_cut75_k=0.2.pdf
+output plot:  error_plot_cut75_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_75/k=0.3
+output plot:  plot_cut75_k=0.3.pdf
+output plot:  error_plot_cut75_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.1
+output plot:  plot_cut150_k=0.1.pdf
+output plot:  error_plot_cut150_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.2
+output plot:  plot_cut150_k=0.2.pdf
+output plot:  error_plot_cut150_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_150/k=0.3
+output plot:  plot_cut150_k=0.3.pdf
+output plot:  error_plot_cut150_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.1
+output plot:  plot_cut100_k=0.1.pdf
+output plot:  error_plot_cut100_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.2
+output plot:  plot_cut100_k=0.2.pdf
+output plot:  error_plot_cut100_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/democratic/cut_100/k=0.3
+output plot:  plot_cut100_k=0.3.pdf
+output plot:  error_plot_cut100_k=0.3.pdf
+Average wavenumber computation time: 57.08689045906067  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.1
+output plot:  plot_cut75_k=0.1.pdf
+output plot:  error_plot_cut75_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.2
+output plot:  plot_cut75_k=0.2.pdf
+output plot:  error_plot_cut75_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_75/k=0.3
+output plot:  plot_cut75_k=0.3.pdf
+output plot:  error_plot_cut75_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.1
+output plot:  plot_cut150_k=0.1.pdf
+output plot:  error_plot_cut150_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.2
+output plot:  plot_cut150_k=0.2.pdf
+output plot:  error_plot_cut150_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_150/k=0.3
+output plot:  plot_cut150_k=0.3.pdf
+output plot:  error_plot_cut150_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.1
+output plot:  plot_cut100_k=0.1.pdf
+output plot:  error_plot_cut100_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.2
+output plot:  plot_cut100_k=0.2.pdf
+output plot:  error_plot_cut100_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/fiducial/cut_100/k=0.3
+output plot:  plot_cut100_k=0.3.pdf
+output plot:  error_plot_cut100_k=0.3.pdf
+Average wavenumber computation time: 63.31365712483724  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.1
+output plot:  plot_cut100_k=0.1.pdf
+output plot:  error_plot_cut100_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.2
+output plot:  plot_cut100_k=0.2.pdf
+output plot:  error_plot_cut100_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_100/k=0.3
+output plot:  plot_cut100_k=0.3.pdf
+output plot:  error_plot_cut100_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.1
+output plot:  plot_cut150_k=0.1.pdf
+output plot:  error_plot_cut150_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.2
+output plot:  plot_cut150_k=0.2.pdf
+output plot:  error_plot_cut150_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_150/k=0.3
+output plot:  plot_cut150_k=0.3.pdf
+output plot:  error_plot_cut150_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.1
+output plot:  plot_cut75_k=0.1.pdf
+output plot:  error_plot_cut75_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.2
+output plot:  plot_cut75_k=0.2.pdf
+output plot:  error_plot_cut75_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsZ/oligarchic/cut_75/k=0.3
+output plot:  plot_cut75_k=0.3.pdf
+output plot:  error_plot_cut75_k=0.3.pdf
+Average wavenumber computation time: 108.13131761550903  seconds
+
+ 
+ 
