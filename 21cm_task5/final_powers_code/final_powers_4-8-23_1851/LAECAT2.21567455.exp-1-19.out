@@ -1,0 +1,48 @@
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK
+wanted_z: [6.6, 6.9]
+chosen_z: ['06.6465', '06.9746']
+chosen redshifts: []
+model: ['oligarchic']
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/oligarchic
+chosen redshifts: []
+model: ['intermediate']
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/intermediate
+chosen redshifts: ['06.6465', '06.9746']
+model: ['extreme']
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_125
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_125
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_125
+output plot:  plot_cut125_z=06.6465.pdf
+output plot:  error_plot_cut125_z=06.6465.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_250
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_250
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_250
+output plot:  plot_cut250_z=06.6465.pdf
+output plot:  error_plot_cut250_z=06.6465.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_500
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_500
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.6465/cut_500
+output plot:  plot_cut500_z=06.6465.pdf
+output plot:  error_plot_cut500_z=06.6465.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_125
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.9746/cut_125
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_125
+output plot:  plot_cut125_z=06.9746.pdf
+output plot:  error_plot_cut125_z=06.9746.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_250
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.9746/cut_250
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_250
+output plot:  plot_cut250_z=06.9746.pdf
+output plot:  error_plot_cut250_z=06.9746.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_500
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.9746/cut_500
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsK/extreme/z=06.9746/cut_500
+output plot:  plot_cut500_z=06.9746.pdf
+output plot:  error_plot_cut500_z=06.9746.pdf
+Average redshift computation time: 81.16906940937042  seconds
+
+ 
+ 
