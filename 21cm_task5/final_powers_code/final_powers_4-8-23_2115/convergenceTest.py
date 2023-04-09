@@ -242,8 +242,10 @@ for m, model_dir in enumerate(emissivity_models):
             P_stdp2 = [P_stdp[i]/P_max[i] for i in range(len(P_max))] 
             #for the corresponding error plot 
             ax2.set_title("Ratios: 21cm Power vs Redshift at z="+z_str)
-            ax2.plot(k_list,P_max2,color='red',label=maxCut+" Mpc/h")
-            ax2.plot(k_list,P_avg2,color='green',linestyle='dashed',label="Average for "+cut_str+" Mpc/h cut")
+            ax2.semilogx(k_list,P_max2,color='red',label=maxCut+" Mpc/h")
+            ax2.semilogx(k_list,P_avg2,color='green',linestyle='dashed',label="Average for "+cut_str+" Mpc/h cut")
+            #ax2.plot(k_list,P_max2,color='red',label=maxCut+" Mpc/h")
+            #ax2.plot(k_list,P_avg2,color='green',linestyle='dashed',label="Average for "+cut_str+" Mpc/h cut")
             ax2.fill_between(k_list,P_stdn2,P_stdp2,alpha=0.5,color='green')
             ax2.set_xlabel("Redshift") 
             ax2.set_xlabel("Wave number h/Mpc") 
