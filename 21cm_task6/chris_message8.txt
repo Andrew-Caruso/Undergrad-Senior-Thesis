@@ -1,0 +1,32 @@
+TASK 6: 
+ISSUE:
+The convergence error plots (ratio to the power in full box) does NOT converge to 1 as expected at greater distance or time. 
+A potential cause of this issue may be due to the average density not being comparable to the cosmic average density (fixed value that can be found analytically)
+This is because the previous tasks takes the full box, does the simulation on it, then chops it up into subvolumes and get their power spectra. 
+Consequently, their average densities are above or below the cosmic average density.
+In comparison to the paper that does a similar simulation. They took their full box, took a subvolume, then did their simulations on that subvolume. 
+Due to time, we have to circumvent this issue, by selecting cuts that have average densities comparable to the cosmic average density. 
+
+	1st subtask:
+There are density field files, 1 for each full box (1 for the 1Gpc box and 1 for the 300 Mpc box)
+The density field files are similar to the previous 21cm field files, except they are in units of the cosmic mean average density (value of 1)
+Want to find the criterion to discard or keep certain densities (within some range of the cosmic average density) 
+Using the desnity fields, perform the cuts and get the average densities to find the standard deviation. 
+Therefore, average densities within c*std are kept (and their power spectra are found), while average densities outside this range are discarded. The constant value c will be adjusted to chose enough sub volumes to perform the analysis. The value for c may be 0.1 to 0.2, perhaps. 
+Id est, for each subvolume with an average density within the average cosmic density +- the c*std are kept for the convergence analysis, else all subvolumes that fail to meet this condition are discarded and unused
+Note that, this will need to be implemented into both the 300Mpc data and 1Gpc data
+
+	2nd subtask:
+Next will be to simply run the programs for both the 300Mpc and 1Gpc boxes, by selecting the subvolumes with average densities in the chosen range of the STD
+and getting the convergence plots and error (ratio to total) plots 
+NOTE that this may fail due to have too few cuts chosen or a incorrect chosen parameter c (for the range of valid densities). Thus, will likely need to do subtask 3, in which more subvolumes are generated.
+	3rd subtask:
+instead of cutting up the full box into subvolumes of fixed size.
+Chose a box size and shift by the cell size or some factor times the cell size 
+Do this for both the 1 Gpc box and 300 Mpc box.
+Note that the 1Gpc box the full box is NOT equal to the number of cells 
+but for the 300Mpc box the full box is equal to the number of cells 
+
+
+
+
