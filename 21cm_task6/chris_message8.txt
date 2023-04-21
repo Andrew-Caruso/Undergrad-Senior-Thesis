@@ -7,6 +7,9 @@ Consequently, their average densities are above or below the cosmic average dens
 In comparison to the paper that does a similar simulation. They took their full box, took a subvolume, then did their simulations on that subvolume. 
 Due to time, we have to circumvent this issue, by selecting cuts that have average densities comparable to the cosmic average density. 
 
+	0th subtask:
+Make sure you are reading in both the field and density data in the SAME orientation. i.e. make contour plots (like task 2) to view if they are in the same orientation. 
+
 	1st subtask:
 There are density field files, 1 for each full box (1 for the 1Gpc box and 1 for the 300 Mpc box)
 The density field files are similar to the previous 21cm field files, except they are in units of the cosmic mean average density (value of 1)
@@ -29,4 +32,22 @@ but for the 300Mpc box the full box is equal to the number of cells
 
 
 
+
+ADDENDUM 1:
+M1e11 folder contains the 21cm field data for the extreme model
+M2e10 folder contains the 21cm field data for the oligarchic model
+The intermediate model is left empty (disregarded) 
+
+
+
+ADDENDUM 2: 
+It will take some time for them to transfer, but in a while the 300 box density fields will be here:
+/expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/
+
+the hydro_Snapshots.txt folder tells you which snapshot numbers (1st column) line up with which redshifts (3rd column)
+
+
+ADDENDUM 3:
+
+yeah one thing you'll have to check is that you've read in the density and 21 cm fields with the same orientation.  I think the way of reading them in will have them aligned correctly, but you should make a plot to check.  If you plot a 21 cm field before reion starts (like at z = 12) you should find that the density field looks basically the same as the brightness field
 
