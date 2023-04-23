@@ -1,0 +1,58 @@
+#!/bin/bash                                                                    
+#SBATCH --job-name="LAECAT"      
+#SBATCH --output="LAECAT.%j.%N.out"   
+#SBATCH --partition=shared
+#SBATCH -A TG-PHY210041 
+#SBATCH --nodes=1   
+#SBATCH --ntasks-per-node=2
+#SBATCH --mem=4Gb 
+#SBATCH --export=ALL
+#SBATCH -t 00:01:00
+#SBATCH --mail-user=acaru004@ucr.edu
+
+#need ntask-per-node = OMP_NUM_THREADS
+#and need memory = 2*ntasks-per-node 
+
+module load intel/19.1.1.217 cpu/0.15.4 mvapich2 anaconda3/2020.11 
+
+#export OMP_NUM_THREADS=2
+#export KMP_AFFINITY="disabled"
+#export KMP_LIBRARY=turnaround
+#export KMP_SCHEDULE="static,balanced"
+#export KMP_STACKSIZE=256M
+
+export PATH="/home/andrewcaruso/bin1:$PATH"
+export PATH="/home/andrewcaruso/fftw-3.3.9:$PATH"
+export PATH="/home/andrewcaruso:$PATH"
+
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/andrewcaruso/fftw-3.3.9/lib/"
+
+#single & manual production of power spectrum 
+#ifort -O3 -qopenmp -I/home/andrewcaruso/fftw-3.3.9/include/ nrtype.f90 powers_t21.f90 mainbody_t21.f90  -L/home/andrewcaruso/fftw-3.3.9/lib/ -lfftw3_threads -lfftw3 -lm -o powers_t21.x
+#./powers_t21.x
+
+#Automatic production of power spectrum from original fields  
+#python make_power_spec_t21_v3.py  
+
+#TEST 
+#sub_volume readin orientation of 21cm field and corresponding density field  
+python test_subVolumes.py 
+
+#STEP 1
+#CHOP 21cm field data
+#python make_subVolumes.py
+
+#STEP 2
+#Automatic production of power spectrum from chopped fields  
+#python make_power_spec_t21_v4.py
+
+#STEP 3 run convergence test on the power spectrum from chopped fields
+#create power vs k plots for fixed z 
+#python convergenceTest1.py 
+
+#STEP 4 run convergence test on the power spectrum from chopped fields
+#create power vs z plots for fixed k 
+#python convergenceTest2.py 
+
+

@@ -1,0 +1,33 @@
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/ EXISTS
+wanted z: 12
+z_density: 12.0037
+model: democratic
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/democratic/ EXISTS
+z_field: 11.7744
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/democratic/z=12/ EXISTS
+file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
+Chosen z axis distance: 10 Mpc/h
+
+output:  contourMap_democratic.pdf 
+
+model: fiducial
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/fiducial/
+z_field: 11.7744
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/fiducial/z=12/
+file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
+Chosen z axis distance: 10 Mpc/h
+
+output:  contourMap_fiducial.pdf 
+
+model: oligarchic
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/oligarchic/
+z_field: 11.7744
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/oligarchic/z=12/
+file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
+Chosen z axis distance: 10 Mpc/h
+
+output:  contourMap_oligarchic.pdf 
+
+
+TASK COMPLETED
+
