@@ -31,8 +31,6 @@ Note that the 1Gpc box the full box is NOT equal to the number of cells
 but for the 300Mpc box the full box is equal to the number of cells 
 
 
-
-
 ADDENDUM 1:
 M1e11 folder contains the 21cm field data for the extreme model
 M2e10 folder contains the 21cm field data for the oligarchic model
@@ -49,5 +47,16 @@ the hydro_Snapshots.txt folder tells you which snapshot numbers (1st column) lin
 
 ADDENDUM 3:
 
-yeah one thing you'll have to check is that you've read in the density and 21 cm fields with the same orientation.  I think the way of reading them in will have them aligned correctly, but you should make a plot to check.  If you plot a 21 cm field before reion starts (like at z = 12) you should find that the density field looks basically the same as the brightness field
+yeah one thing you'll have to check is that you've read in the density and 21 cm fields with the same orientation.  I think the way of reading them in will have them aligned correctly, but you should make a plot to check.  If you plot a 21 cm field before reion starts (like at z = 12) you should find that the density field looks basically the same as the brightness field. This is because there are hardly any ionization bubbles (before reionization epoch). 
+
+
+
+ADDENDUM 4:
+Current issue with the fields and densities NOT looking the same at high redshift (z=12), therefore,
+Try: having a separate color bar for the densities (instead of sharing the color bar with the fields)
+And also set it to a log scale by taking log(densities) and setting the range from log(0.3) to log(10). 
+
+If first attempt fails: 
+You'll be able to see the density fields a lot better if you plot log(density) instead of density.  Usually if the fields don't align it is because some axes were switched, so try swapping e.g. x and z
+This can be done by changing the ordering from C to fortran ordering when importing the data. 
 
