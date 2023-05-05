@@ -21,7 +21,9 @@ def callout(name,bob):
 
 def loadIn1(model,rs,N):
     rsFile = model+"t21_field.z="+rs 
-    rawdata = np.array(np.fromfile(rsFile,dtype=np.float32).reshape((N,N,N)))
+    #import by default in C order, alternatively can do F order
+    #to get correct orientation of the field to density plots
+    rawdata = np.array(np.fromfile(rsFile,dtype=np.float32).reshape((N,N,N),order='F'))
     return rawdata 
 
 def loadIn2(directory,manifest):
@@ -172,8 +174,8 @@ def contourPlotter(directory,density_list,record,model,rs_d,rs_f,N):
     max_array = np.array([xy_f.max(),xy_d.max()])
     #max_xy = max_array.max() NEGLECT because two want two different color bars 
     min_array = np.array([xy_f.min(),xy_d.min()])
-    print("max field and density:",max_array)
-    print("min field and density:",min_array)
+    #print("max field and density:",max_array)
+    #print("min field and density:",min_array)
     return x,y,xy_d,xy_f,min_array,max_array,z_chosen
 
     
@@ -236,7 +238,7 @@ for m, model in enumerate(emissivity_models):
     ax_d = fig.add_axes([0.54,0.15,0.4,0.02]) #xmin,ymin,width,height
     tickList_f = list(range(int(min_array[0]),int(math.floor(max_array[0])),5)) #select major ticks for colorbar 
     tickList_d = list(np.arange(min_array[1],max_array[1],0.2)) #select major ticks for colorbar 
-    print("density ticks:",tickList_d)
+    #print("density ticks:",tickList_d)
     cbar_f = fig.colorbar(sm_f,orientation='horizontal',cax=ax_f,label="mK",ticks=tickList_f)
     cbar_d = fig.colorbar(sm_d,orientation='horizontal',cax=ax_d,label="mK",ticks=tickList_d)
     #change figure size 

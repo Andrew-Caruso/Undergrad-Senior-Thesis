@@ -14,7 +14,7 @@ XSEDE (Extreme Science and Engineering Discovery Environment) is discontinued.
 It has been replaced by ACCESS (ADvanced Cyberinfrastructure Coordination Ecosystem: Services & Support).
 Expanse supercomputer (from the San Diego Supercomputer center) is still active as of 2023.  
 
-	COMMANDS (run on Expanse Supercomputer): 
+	COMMANDS (i.e. SLURM commands, run on Expanse Supercomputer): 
 Command to run job: 
 sbatch jobfile.pbs
 
@@ -22,6 +22,12 @@ Command to see queue:
 squeue -j jobID
 squeue -u username
 squeue --me 
+
+Command to see all your recent jobs and there statuses:
+sacct 
+
+Command to see all details of a job (including time):
+scontrol show job jobID
 
 Command to see time for job to run (if waiting in queue):
 squeue --me --start 

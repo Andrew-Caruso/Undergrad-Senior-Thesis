@@ -7,9 +7,6 @@ z_field: 11.7744
 MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/democratic/z=12/
 file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
 Chosen z axis distance: 10 Mpc/h
-max field and density: [91.428825    0.47466427]
-min field and density: [11.541374   -0.37964317]
-density ticks: [-0.37964317202568054, -0.17964317202568053, 0.02035682797431948, 0.22035682797431955, 0.4203568279743195]
 
 output:  contourMap_democratic.pdf 
 
@@ -19,9 +16,6 @@ z_field: 11.7744
 MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/fiducial/z=12/
 file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
 Chosen z axis distance: 10 Mpc/h
-max field and density: [91.428825    0.47466427]
-min field and density: [ 0.         -0.37964317]
-density ticks: [-0.37964317202568054, -0.17964317202568053, 0.02035682797431948, 0.22035682797431955, 0.4203568279743195]
 
 output:  contourMap_fiducial.pdf 
 
@@ -31,9 +25,6 @@ z_field: 11.7744
 MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_densityVSfield_test/oligarchic/z=12/
 file path: /expanse/lustre/scratch/ccain002/temp_project/for_andrew/real_300_mod/density.026.300
 Chosen z axis distance: 10 Mpc/h
-max field and density: [93.02607     0.47466427]
-min field and density: [ 0.         -0.37964317]
-density ticks: [-0.37964317202568054, -0.17964317202568053, 0.02035682797431948, 0.22035682797431955, 0.4203568279743195]
 
 output:  contourMap_oligarchic.pdf 
 
