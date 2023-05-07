@@ -1,0 +1,590 @@
+std weight: 0.01
+step size: 60
+
+z: 6.7094
+CosmicDensity±STD: 1.0042688244581222  to  0.9957311755418777
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.1856
+CosmicDensity±STD: 1.0046339154243469  to  0.9953660845756531
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.0223
+CosmicDensity±STD: 1.0035721412301064  to  0.9964278587698936
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.5245
+CosmicDensity±STD: 1.0043906423449516  to  0.9956093576550483
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 10.7635
+CosmicDensity±STD: 1.0026776000857354  to  0.9973223999142646
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.8956
+CosmicDensity±STD: 1.0058937686681748  to  0.9941062313318253
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 6.9062
+CosmicDensity±STD: 1.0041467514634133  to  0.9958532485365867
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.8313
+CosmicDensity±STD: 1.0059757459163665  to  0.9940242540836334
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 7.7506
+CosmicDensity±STD: 1.0036961805820466  to  0.9963038194179535
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.6192
+CosmicDensity±STD: 1.0062636697292329  to  0.9937363302707672
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.2458
+CosmicDensity±STD: 1.0054855746030809  to  0.9945144253969193
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 10.0859
+CosmicDensity±STD: 1.0028528329730033  to  0.9971471670269966
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.2394
+CosmicDensity±STD: 1.0045933938026428  to  0.9954066061973572
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.4184
+CosmicDensity±STD: 1.0038606950640678  to  0.9961393049359322
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.9798
+CosmicDensity±STD: 1.0047959142923355  to  0.9952040857076645
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.2942
+CosmicDensity±STD: 1.0045528939366342  to  0.995447106063366
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.1175
+CosmicDensity±STD: 1.0035306787490845  to  0.9964693212509155
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.1890
+CosmicDensity±STD: 1.0039839553833008  to  0.9960160446166992
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.3501
+CosmicDensity±STD: 1.0045123437047005  to  0.9954876562952996
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 9.1053
+CosmicDensity±STD: 1.0031531581282616  to  0.9968468418717384
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.7473
+CosmicDensity±STD: 1.003279913365841  to  0.9967200866341591
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.6483
+CosmicDensity±STD: 1.0062224328517915  to  0.9937775671482086
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 4.9284
+CosmicDensity±STD: 1.0058528411388397  to  0.9941471588611602
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 4.4789
+skipped z:  4.4789
+
+z: 7.4984
+CosmicDensity±STD: 1.0038196620345117  to  0.9961803379654884
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.5340
+CosmicDensity±STD: 1.0063877505064012  to  0.9936122494935989
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 15  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.7422
+CosmicDensity±STD: 1.0049984607100486  to  0.9950015392899513
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.7881
+CosmicDensity±STD: 1.004957944750786  to  0.9950420552492142
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.4413
+CosmicDensity±STD: 1.0052823346853257  to  0.9947176653146744
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.7687
+CosmicDensity±STD: 1.0060578310489654  to  0.9939421689510346
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 7.3402
+CosmicDensity±STD: 1.003901678919792  to  0.9960983210802078
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.8348
+CosmicDensity±STD: 1.0049174469709397  to  0.9950825530290603
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 9.9313
+CosmicDensity±STD: 1.002896205186844  to  0.9971037948131561
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.0996
+CosmicDensity±STD: 1.0056485420465469  to  0.994351457953453
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 6.5848
+CosmicDensity±STD: 1.0043500727415084  to  0.9956499272584916
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.2837
+CosmicDensity±STD: 1.0054448914527894  to  0.9945551085472107
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.6971
+CosmicDensity±STD: 1.0050390034914016  to  0.9949609965085984
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 9.7820
+CosmicDensity±STD: 1.002939401268959  to  0.9970605987310409
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.0299
+CosmicDensity±STD: 1.004755420088768  to  0.9952445799112319
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 11.1432
+CosmicDensity±STD: 1.0025887748599052  to  0.9974112251400947
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.9746
+CosmicDensity±STD: 1.0041060024499893  to  0.9958939975500107
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.8392
+CosmicDensity±STD: 1.0041874518990517  to  0.9958125481009483
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.2637
+CosmicDensity±STD: 1.0039426165819167  to  0.9960573834180831
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 9.4981
+CosmicDensity±STD: 1.0030253258347512  to  0.9969746741652489
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.2154
+CosmicDensity±STD: 1.0034891086816788  to  0.9965108913183213
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.6465
+CosmicDensity±STD: 1.0043094515800477  to  0.9956905484199524
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.3613
+CosmicDensity±STD: 1.0053635573387145  to  0.9946364426612854
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.1354
+CosmicDensity±STD: 1.0056077617406844  to  0.9943922382593154
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 6.0808
+CosmicDensity±STD: 1.0047149485349656  to  0.9952850514650344
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 10.2461
+CosmicDensity±STD: 1.0028092938661575  to  0.9971907061338424
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.4822
+CosmicDensity±STD: 1.0052417254447936  to  0.9947582745552063
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.4009
+CosmicDensity±STD: 1.0053229635953904  to  0.9946770364046097
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 10.4122
+CosmicDensity±STD: 1.0027655869722367  to  0.9972344130277634
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.2084
+CosmicDensity±STD: 1.0055262809991836  to  0.9944737190008164
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 8.3160
+CosmicDensity±STD: 1.0034474605321884  to  0.9965525394678116
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.6778
+CosmicDensity±STD: 1.0061812269687653  to  0.9938187730312348
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 10.9497
+CosmicDensity±STD: 1.0026332867145538  to  0.9973667132854461
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.5904
+CosmicDensity±STD: 1.0063049226999283  to  0.9936950773000717
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 4.5063
+CosmicDensity±STD: 1.0064289408922196  to  0.9935710591077804
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 9.2321
+CosmicDensity±STD: 1.0031106889247894  to  0.9968893110752106
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.5256
+CosmicDensity±STD: 1.0033638665080071  to  0.996636133491993
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.1327
+CosmicDensity±STD: 1.0046744155883789  to  0.9953255844116211
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.6348
+CosmicDensity±STD: 1.0033219623565675  to  0.9966780376434327
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 9.3630
+CosmicDensity±STD: 1.0030680721998215  to  0.9969319278001785
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 11.7744
+CosmicDensity±STD: 1.0024538107216359  to  0.9975461892783641
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.6090
+CosmicDensity±STD: 1.0051200544834138  to  0.9948799455165863
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.9294
+CosmicDensity±STD: 1.003613567352295  to  0.9963864326477051
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.9617
+CosmicDensity±STD: 1.0058119189739227  to  0.9941880810260773
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 11.5550
+CosmicDensity±STD: 1.0024990528821944  to  0.9975009471178055
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.1716
+CosmicDensity±STD: 1.0055670374631882  to  0.9944329625368118
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 7.5805
+CosmicDensity±STD: 1.003778556585312  to  0.9962214434146881
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.0297
+CosmicDensity±STD: 1.0057301890850068  to  0.9942698109149933
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 8.8631
+CosmicDensity±STD: 1.0032377901673317  to  0.9967622098326683
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.8632
+CosmicDensity±STD: 1.005934757590294  to  0.9940652424097061
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 7.6645
+CosmicDensity±STD: 1.0037374076247216  to  0.9962625923752785
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.3222
+CosmicDensity±STD: 1.005404217839241  to  0.994595782160759
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 11.3449
+CosmicDensity±STD: 1.002544030547142  to  0.997455969452858
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.7997
+CosmicDensity±STD: 1.0060167908668518  to  0.9939832091331482
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.8823
+CosmicDensity±STD: 1.0048769244551659  to  0.9951230755448341
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.4193
+CosmicDensity±STD: 1.0034056997299194  to  0.9965943002700806
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 10.5846
+CosmicDensity±STD: 1.0027216756343842  to  0.9972783243656158
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 8.9824
+CosmicDensity±STD: 1.003195530474186  to  0.996804469525814
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.5238
+CosmicDensity±STD: 1.005201180577278  to  0.9947988194227219
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.7380
+CosmicDensity±STD: 1.006098928451538  to  0.993901071548462
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.6527
+CosmicDensity±STD: 1.0050795239210129  to  0.9949204760789871
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.4071
+CosmicDensity±STD: 1.0044717735052109  to  0.9955282264947891
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.5620
+CosmicDensity±STD: 1.0063462150096893  to  0.9936537849903107
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 4.9954
+CosmicDensity±STD: 1.005771051645279  to  0.9942289483547211
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 5.5661
+CosmicDensity±STD: 1.0051606118679046  to  0.9948393881320954
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.8389
+CosmicDensity±STD: 1.0036549124121665  to  0.9963450875878334
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 7.1159
+CosmicDensity±STD: 1.0040243992209434  to  0.9959756007790566
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.7736
+CosmicDensity±STD: 1.0042281365394592  to  0.9957718634605408
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 6.4652
+CosmicDensity±STD: 1.004431234896183  to  0.995568765103817
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 4.7077
+CosmicDensity±STD: 1.0061400800943374  to  0.9938599199056626
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 7.0445
+CosmicDensity±STD: 1.0040652024745942  to  0.9959347975254059
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.0644
+CosmicDensity±STD: 1.0056893384456635  to  0.9943106615543366
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 11  VS permutations: 27
+
+z: 9.6377
+CosmicDensity±STD: 1.002982431948185  to  0.9970175680518151
+For N= 75  Save count: 9  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+z: 5.9306
+CosmicDensity±STD: 1.0048364287614822  to  0.9951635712385177
+For N= 75  Save count: 10  VS permutations: 64
+For N= 100  Save count: 14  VS permutations: 64
+For N= 150  Save count: 10  VS permutations: 27
+
+TASK COMPLETED
+
