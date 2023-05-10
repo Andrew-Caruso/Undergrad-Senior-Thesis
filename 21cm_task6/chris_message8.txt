@@ -60,3 +60,14 @@ If first attempt fails:
 You'll be able to see the density fields a lot better if you plot log(density) instead of density.  Usually if the fields don't align it is because some axes were switched, so try swapping e.g. x and z
 This can be done by changing the ordering from C to fortran ordering when importing the data. 
 
+
+ADDENDUM 5:
+hey Andrew, sorry for the delay.  What you want to do is only use a given sub-volume if the mean density within it is sufficiently close to the cosmic mean.  so for instance, you could try +/- 0.1*sigma.  The thing to be careful of is that sigma here is not the standard deviation of the density field itself - it is the standard deviation of a sample of many average densities using sub-volumes of the target size.  So there are two steps here: (1) select many sub-volumes, find the mean densities in all of them, and then calculate the standard deviation of that sample, and (2) use that result to decide whether or not to use a given sub-volume in the 21 cm analysis.
+
+Therefore, need to go back and get the correct STD. 
+I.e. Oh, I see, I accidentally calculated the standard deviation of the density field itself instead of the standard deviation of the mean densities of many sub-volumes for a particular cut.
+
+
+
+
+
