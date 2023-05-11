@@ -1,0 +1,134 @@
+
+The following have been reloaded with a version change:
+  1) cpu/0.17.3b => cpu/0.15.4
+
+convergenceTest1.py:186: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig,ax = plt.subplots(1,1)
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK
+chosen redshifts: ['06.0299', '07.0445', '08.5256']
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=06.0299/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_75
+output plot:  plot_cut75_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=06.0299/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_150
+output plot:  plot_cut150_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=06.0299/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=06.0299/cut_100
+output plot:  plot_cut100_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_75
+output plot:  plot_cut75_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_100
+output plot:  plot_cut100_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=07.0445/cut_150
+output plot:  plot_cut150_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=08.5256/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_75
+output plot:  plot_cut75_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=08.5256/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_100
+output plot:  plot_cut100_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=08.5256/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/democratic/z=08.5256/cut_150
+output plot:  plot_cut150_z=08.5256.pdf
+Average redshift computation time: 1.9783220291137695  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=06.0299/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_75
+output plot:  plot_cut75_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=06.0299/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_150
+output plot:  plot_cut150_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=06.0299/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=06.0299/cut_100
+output plot:  plot_cut100_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_75
+output plot:  plot_cut75_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_100
+output plot:  plot_cut100_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=07.0445/cut_150
+output plot:  plot_cut150_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=08.5256/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_150
+output plot:  plot_cut150_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=08.5256/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_75
+output plot:  plot_cut75_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=08.5256/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/fiducial/z=08.5256/cut_100
+output plot:  plot_cut100_z=08.5256.pdf
+Average redshift computation time: 1.7714877128601074  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=06.0299/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_100
+output plot:  plot_cut100_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=06.0299/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_75
+output plot:  plot_cut75_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=06.0299/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=06.0299/cut_150
+output plot:  plot_cut150_z=06.0299.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_100
+output plot:  plot_cut100_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_150
+output plot:  plot_cut150_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=07.0445/cut_75
+output plot:  plot_cut75_z=07.0445.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_150
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=08.5256/cut_150
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_150
+output plot:  plot_cut150_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_100
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=08.5256/cut_100
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_100
+output plot:  plot_cut100_z=08.5256.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_75
+input dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=08.5256/cut_75
+output dir: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/plots_convergenceTest_PvsK/oligarchic/z=08.5256/cut_75
+output plot:  plot_cut75_z=08.5256.pdf
+Average redshift computation time: 1.7473214467366536  seconds
+
+ 
+ 
