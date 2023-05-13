@@ -1,0 +1,84 @@
+
+The following have been reloaded with a version change:
+  1) cpu/0.17.3b => cpu/0.15.4
+
+convergenceTest2.py:154: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  z_arr = np.array([z_arr0,z_arr1])
+convergenceTest2.py:155: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  z_arr_str = np.array([z_str0,z_str1])
+convergenceTest2.py:203: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig,ax = plt.subplots(1,1) #for P vs z plot
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_125
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_125/k=0.1
+output plot:  plot_cut125_k=0.1.pdf
+output plot:  error_plot_cut125_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_125/k=0.2
+output plot:  plot_cut125_k=0.2.pdf
+output plot:  error_plot_cut125_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_125/k=0.3
+output plot:  plot_cut125_k=0.3.pdf
+output plot:  error_plot_cut125_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_500
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_500/k=0.1
+output plot:  plot_cut500_k=0.1.pdf
+output plot:  error_plot_cut500_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_500/k=0.2
+output plot:  plot_cut500_k=0.2.pdf
+output plot:  error_plot_cut500_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_500/k=0.3
+output plot:  plot_cut500_k=0.3.pdf
+output plot:  error_plot_cut500_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_250
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_250/k=0.1
+output plot:  plot_cut250_k=0.1.pdf
+output plot:  error_plot_cut250_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_250/k=0.2
+output plot:  plot_cut250_k=0.2.pdf
+output plot:  error_plot_cut250_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/oligarchic/cut_250/k=0.3
+output plot:  plot_cut250_k=0.3.pdf
+output plot:  error_plot_cut250_k=0.3.pdf
+Average wavenumber computation time: 2.9464193979899087  seconds
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_125
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_125/k=0.1
+output plot:  plot_cut125_k=0.1.pdf
+output plot:  error_plot_cut125_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_125/k=0.2
+output plot:  plot_cut125_k=0.2.pdf
+output plot:  error_plot_cut125_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_125/k=0.3
+output plot:  plot_cut125_k=0.3.pdf
+output plot:  error_plot_cut125_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_250
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_250/k=0.1
+output plot:  plot_cut250_k=0.1.pdf
+output plot:  error_plot_cut250_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_250/k=0.2
+output plot:  plot_cut250_k=0.2.pdf
+output plot:  error_plot_cut250_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_250/k=0.3
+output plot:  plot_cut250_k=0.3.pdf
+output plot:  error_plot_cut250_k=0.3.pdf
+chosen wavenumbers: [0.1, 0.2, 0.3]
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_500
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_500/k=0.1
+output plot:  plot_cut500_k=0.1.pdf
+output plot:  error_plot_cut500_k=0.1.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_500/k=0.2
+output plot:  plot_cut500_k=0.2.pdf
+output plot:  error_plot_cut500_k=0.2.pdf
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/plots_convergenceTest_PvsZ/extreme/cut_500/k=0.3
+output plot:  plot_cut500_k=0.3.pdf
+output plot:  error_plot_cut500_k=0.3.pdf
+Average wavenumber computation time: 0.235155979792277  seconds
+
+ 
+ 

@@ -67,7 +67,13 @@ hey Andrew, sorry for the delay.  What you want to do is only use a given sub-vo
 Therefore, need to go back and get the correct STD. 
 I.e. Oh, I see, I accidentally calculated the standard deviation of the density field itself instead of the standard deviation of the mean densities of many sub-volumes for a particular cut.
 
+NOTE 1: 
+the standard deviations for the subvolumes can be found in the LAE output in:
+final_powers_5-12-23_1922 
+modified_powers_5-7-23_1423 
 
+Both of which are about 1 +- 0.99 for all redshifts all models all cuts 
+Using a weight of 0.1 on the true std value 
 
 
 
