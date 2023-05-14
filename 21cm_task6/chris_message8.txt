@@ -76,4 +76,18 @@ Both of which are about 1 +- 0.99 for all redshifts all models all cuts
 Using a weight of 0.1 on the true std value 
 
 
+ADDENDUM 6:
+Regarding the 1Gpc/h plots with the cosmic density criteria (new) versus the plots without (old)
+
+can you put both cases on the same plot?
+I just want to make sure that the two results aren't too similar
+if they are too close together it may be a hint that something is wrong
+
+
+
+
+
+
+
+
 
