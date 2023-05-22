@@ -103,9 +103,9 @@ def loadOut(data,phrase,outputDir):
 
 def redshiftSelector(wanted_Z,all_Z):
     #wanted_z must be a list of integers or floats
+    print(type(all_Z))
     chosen_Z = []
-    if isinstance(all_Z,np.ndarray):
-        all_Z = all_Z.tolist()
+    all_Z = all_Z.tolist()
     #print("original:",all_Z,"\n")
     sorted_all_Z = all_Z.copy()
     sorted_all_Z.sort()
@@ -163,6 +163,7 @@ def redshiftSelector(wanted_Z,all_Z):
                         break 
     return chosen_Z
 
+
 def contourPlotter(directory,density_list,record,model,rs_d,rs_f,N):
     field = np.array(loadIn1(model,rs_f,N)) #get 21cm field 
     density = getDensityFile(directory,density_list,record,rs_d,N) #get corresponding density 
@@ -203,15 +204,16 @@ emissivity_models = [emissivity_file+model_list[i] for i in range(2)]
 #REMOVE ME
 z_str0 = getRS(emissivity_models[0])
 z_str1 = getRS(emissivity_models[1])
-z_arr_str = np.array([z_str0,z_str1])
+z_arr_str = np.array([z_str0,z_str1],dtype=object)
 print("z_arr_str",z_arr_str)
 current_dir = os.getcwd() #get current directory 
 #get the manifest list of density file ID and redshifts  
 density_list, manifest = listGrab(density_dir)
 record = loadIn2(density_dir,manifest)  
 #chose a redshift to plot 
-wanted_z = [11] #needs to be a list
+wanted_z = [7] #needs to be a list
 #get the corresponding redshift in the manifest 
+print("record data type:",type(record[:,1]))
 z_density = redshiftSelector(wanted_z,record[:,1])[0]
 #confirm chosen directory for output exists 
 dirCreator(outputData_dir)
@@ -224,6 +226,10 @@ for m, model in enumerate(emissivity_models):
     model_name = model_list[m].replace("/","")
     print("model:",model_name)
     dirCreator(outputModelDir)
+    print("z_arr_str data type:",type(z_arr_str[m]))
+    #convert from list to numpy array 
+    z_arr_str[m] = np.array(z_arr_str[m])
+    print("z_arr_str data type:",type(z_arr_str[m]))
     z_field = redshiftSelector(wanted_z,z_arr_str[m])[0] #convert from list to str  
     #print("z_field:",z_field) 
     outputRSdir = outputModelDir + "z=" + str(wanted_z[0])+ "/"
@@ -242,7 +248,7 @@ for m, model in enumerate(emissivity_models):
     sm_d = plt.cm.ScalarMappable(norm=num_d,cmap='jet')
     ax_f = fig.add_axes([0.11,0.15,0.4,0.02]) #xmin,ymin,width,height
     ax_d = fig.add_axes([0.54,0.15,0.4,0.02]) #xmin,ymin,width,height
-    tickList_f = list(range(int(min_array[0]),int(math.floor(max_array[0])),5)) #select major ticks for colorbar 
+    tickList_f = list(range(int(min_array[0]),int(math.floor(max_array[0])),10)) #select major ticks for colorbar 
     tickList_d = list(np.arange(min_array[1],max_array[1],0.2)) #select major ticks for colorbar 
     #print("density ticks:",tickList_d)
     cbar_f = fig.colorbar(sm_f,orientation='horizontal',cax=ax_f,label="mK",ticks=tickList_f)

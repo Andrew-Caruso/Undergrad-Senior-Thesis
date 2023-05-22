@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=64
 #SBATCH --mem=128Gb 
 #SBATCH --export=ALL
-#SBATCH -t 24:00:00
+#SBATCH -t 00:08:00
 #SBATCH --mail-user=acaru004@ucr.edu
 
 #need ntask-per-node = OMP_NUM_THREADS
@@ -38,7 +38,7 @@ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/andrewcaruso/fftw-3.3.9/lib/"
 
 #TEST (STEP 0) 
 #sub_volume readin orientation of 21cm field and corresponding density field  
-#python test_subVolumes.py 
+python test_subVolumes.py 
 
 #STEP 1
 #CHOP 21cm field data
@@ -54,6 +54,6 @@ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/andrewcaruso/fftw-3.3.9/lib/"
 
 #STEP 4 run convergence test on the power spectrum from chopped fields
 #create power vs z plots for fixed k 
-python convergenceTest2.py 
+#python convergenceTest2.py 
 
 
