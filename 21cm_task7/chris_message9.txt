@@ -1,0 +1,22 @@
+TASK 7:
+
+FIRST:
+Get the oligarchic model contour map from task 6 (final powers) for redshift 6.5 instead of 7 (something went wrong with the search for 6.5??
+
+SECOND: 
+Create a new program auxPower that creates violin plots (via python seaborn) 
+based on the plotting code already implemented.
+Do this for both the small box (2 models) and big box (2 models)
+Make a violin for each cut 
+Essentially the x axis is the cut and the y axis is the delta P (error in power)
+where delta P = |Pavg - Pmax| / std 
+
+Just like the power vs redshift plots for a particular plot, choose a particular redshift and look at the vertical line of the plot. The absolute difference between the average power and total power (for max size of the box) is delta P, while the standard deviation is the same std from the avg (green portion).  
+
+Should be similar to figure in "Minimum size of 21-cm simulations" or smallBox.pdf.  
+ 
+
+ADDENDUM 1:
+Resolved first part by selecting 6.6 instead of 6.5, given the 6.5 is closer to 06.6465 than 06.3501 (from the data).  
+
+
