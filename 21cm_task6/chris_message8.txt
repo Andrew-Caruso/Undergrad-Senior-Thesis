@@ -85,8 +85,13 @@ if they are too close together it may be a hint that something is wrong
 
 
 
+ADDENDUM 7:
+The power vs k error (I.e. constant z) plot for the 300Mpc/h box is blank!!!
+The error plot is fine
+See modifiedPowers/convergencetest1.py
+Fix this then return back to task 7
 
-
+The final version of modified powers is modified_powers_6-1-23_1936, as of June rather than the "completed" version in May 
 
 
 

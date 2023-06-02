@@ -13,10 +13,15 @@ where delta P = |Pavg - Pmax| / std
 
 Just like the power vs redshift plots for a particular plot, choose a particular redshift and look at the vertical line of the plot. The absolute difference between the average power and total power (for max size of the box) is delta P, while the standard deviation is the same std from the avg (green portion).  
 
-Should be similar to figure in "Minimum size of 21-cm simulations" or smallBox.pdf.  
+Should be similar to figure in "Minimum size of 21-cm simulations" or smallBox.pdf under task 1
  
 
 ADDENDUM 1:
 Resolved first part by selecting 6.6 instead of 6.5, given the 6.5 is closer to 06.6465 than 06.3501 (from the data).  
+
+
+ADDENDUM 2:
+For the violin plots, would you like me to chose k=0.2 and z=6.5 for both the small and large boxes?
+I think for the small boxes use z = 7 and for the big ones use z = 6.5 and k = 0.2 for both
 
 
