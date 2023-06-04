@@ -11,6 +11,9 @@ Make a violin for each cut
 Essentially the x axis is the cut and the y axis is the delta P (error in power)
 where delta P = |Pavg - Pmax| / std 
 
+Note that std = powerStd/Pavg 
+Also note that delta P is essentially the Z score 
+
 Just like the power vs redshift plots for a particular plot, choose a particular redshift and look at the vertical line of the plot. The absolute difference between the average power and total power (for max size of the box) is delta P, while the standard deviation is the same std from the avg (green portion).  
 
 Should be similar to figure in "Minimum size of 21-cm simulations" or smallBox.pdf under task 1

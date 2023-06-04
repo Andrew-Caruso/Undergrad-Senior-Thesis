@@ -1,0 +1,266 @@
+import numpy as np
+import os
+import time 
+import matplotlib.pyplot as plt
+from operator import itemgetter
+from scipy import interpolate
+#from scipy.stats import norm 
+import statistics as stats 
+
+#create power P vs redshift z plots for fixed wavenumber k  
+#make violin plots for k = 0.2 and z = 7 
+
+#----------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+#functions 
+#----------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+
+def getRS(model_directory):
+    current = os.getcwd() #get current directory 
+    os.chdir(model_directory)#change to directory of data 
+    rs_str = (os.listdir()) #return a list of all files in that directory
+    rs_str = [(x.replace("z=","")) for x in rs_str] #use comprehension to replace all text save for redshift with blank
+    os.chdir(current)#return back to original directory 
+    rs = [float(rs_str[i]) for i in range(len(rs_str))]
+    return rs, rs_str 
+
+def getCuts(cut_dir,rs):
+    current = os.getcwd() #get current directory 
+    os.chdir(cut_dir)#change to directory of data 
+    cut_str = (os.listdir())
+    cut_str = [(x.replace("cut_","")) for x in cut_str]
+    os.chdir(current)
+    cutValue = [float(cut_str[i]) for i in range(len(cut_str))]
+    return cutValue, cut_str 
+
+def dirChecker(directory):
+        #create directory if non-existent 
+        if not os.path.isdir(directory): print("MAKING %s"%(directory)); os.mkdir(directory)
+        else: print("%s EXISTS"%(directory))
+
+def listGrab(directory):
+    current = os.getcwd() 
+    os.chdir(directory)
+    data_list = (os.listdir())
+    os.chdir(current)
+    return data_list
+
+def getDefaultCut(cuts_float):
+    maxCut = max(cuts_float)
+    cuts_float.remove(maxCut)
+    maxCut = str(int(maxCut))
+    cuts_str = [str(int(cuts_float[i])) for i in range(len(cuts_float))]
+    return maxCut, cuts_str
+
+def loadIn(filepath):
+    #the power spectra are ASCII text files 
+    rawData = np.loadtxt(filepath,skiprows=1)
+    #row are strings of the titles (not actual data)
+    #column 0 is k[unitless]
+    #column 1 is k[h/Mpc]
+    #column2 is D^2(k) or power spectrum at the corresponding k value 
+    return rawData 
+
+def loadIn2(model,rs,N):
+    rsFile = model+"t21_field.z="+rs 
+    type(np.fromfile(rsFile,dtype=np.float32))
+    rawdata = np.array(np.fromfile(rsFile,dtype=np.float32).reshape((N,N,N)))
+    return rawdata 
+
+def isIntChecker(x):
+    num = int(abs(float(int(x) - x)*10)) #tenth place of number 
+    if num == 0:
+        isInt = 1
+    else:
+        isInt = 0
+    return isInt  
+
+
+def redshiftSelector(wanted_Z,all_Z):
+    chosen_Z = []
+    all_Z = all_Z.tolist()
+    #print("original:",all_Z,"\n")
+    sorted_all_Z = all_Z.copy()
+    sorted_all_Z.sort()
+    #print("sorted:",sorted_all_Z,"\n")
+    int_all_Z = [int(float(sorted_all_Z[i])) for i in range(len(sorted_all_Z))]
+    #print("sorted int:",int_all_Z,"\n")
+    dec_all_Z = [round((float(sorted_all_Z[i])),1) for i in range(len(sorted_all_Z))]
+    #print("sorted float:",dec_all_Z,"\n")
+    for i, wantZ in enumerate(wanted_Z):
+        #print("wanted Z:",wantZ)
+        isInt = isIntChecker(wantZ)
+        if isInt == 1:
+            for j, Z in enumerate(int_all_Z):
+                if wantZ == Z:
+                    found_Z = sorted_all_Z[j]
+                    #print("found Z:",sorted_all_Z[j])
+                    #print("sorted index:",j)
+                    true_index = all_Z.index(found_Z)
+                    #print("true index:",true_index)
+                    chosen_Z.append(found_Z)
+                    break
+        elif isInt == 0:
+            for j, Z in enumerate(dec_all_Z):
+                if wantZ == Z:
+                    found_Z = sorted_all_Z[j]
+                    #print("found Z:",sorted_all_Z[j])
+                    #print("sorted index:",j)
+                    true_index = all_Z.index(found_Z)
+                    #print("true index:",true_index)
+                    chosen_Z.append(found_Z)
+                    break
+    return chosen_Z
+
+
+def PowerFinder(data_vec,spec_k):
+    #interpolate the k and p data to get power at the exact k (instead of selecting closest value)
+    listk = data_vec[:,1] 
+    listp = data_vec[:,2] 
+    f = interpolate.interp1d(listk,listp)
+    power = f(spec_k)
+    return power  
+
+    
+#----------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+#program 
+#----------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+
+
+#prelims
+emissivity_file = '/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/' #directory of the sliced 21cm power spectra data to use. CHANGE ME
+model_list = ["democratic/","fiducial/","oligarchic/"]
+emissivity_models = ["","",""]
+emissivity_models = [emissivity_file+model_list[i] for i in range(3)] 
+output_path = "/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/" #CHANGE ME
+output_mainDir = "violinPlots" 
+output_dir = output_path+output_mainDir 
+dirChecker(output_dir)
+
+#get all redshifts for each model (in case there is a discrepancy)
+z_arr0,z_str0 = getRS(emissivity_models[0])
+z_arr1,z_str1 = getRS(emissivity_models[1])
+z_arr2,z_str2 = getRS(emissivity_models[2])
+z_arr = np.array([z_arr0,z_arr1,z_arr2])
+z_arr_str = np.array([z_str0,z_str1,z_str2])
+current_dir = os.getcwd() #get current directory 
+wanted_k = [0.2]  
+wanted_z = [7] 
+#make violin plots for k = 0.2 and z = 7 
+
+#loop over models 
+for m, model_dir in enumerate(emissivity_models):
+    #STEP 1: get all the redshifts 
+    z_all = z_arr[m] #all redshift values  
+    original_z_all = z_all.copy() #make an original copy of the unordered redshifts
+    z_string = z_arr_str[m] #string redshift values  
+    chopped_dir = model_dir.split('/')
+    model_name = chopped_dir[-2:-1]
+    model_name = model_name[0]
+    print(model_name)
+    model_dir2 = '/'.join(chopped_dir[:-3])
+    output_dir1 = output_dir+"/"+model_name 
+    dirChecker(output_dir1) #check output main directory 
+    #STEP 2: get the cuts from first redshift directory  
+    z_strb = z_string[0]
+    #print("z_strb:",z_strb)
+    start = time.time() #begin timer 
+    cut_dirb = model_dir+"z="+z_strb
+    cuts, cuts_string = getCuts(cut_dirb,z_strb) 
+    #STEP 2.5: get and remove max cut
+    #max cut will be the same regardless of model 
+    maxCut, cuts_string = getDefaultCut(cuts) 
+    #STEP 2.7: select out the corresponding redshift value
+    z_chosen = "0"+str(redshiftSelector(wanted_z,z_all)[0]) 
+    #print("chosen z:",z_chosen, type(z_chosen))
+    z_string = [z_chosen]
+    #STEP 2.8: create empty data for violin plot (per model)  
+    #create blank canvas/plot and default arrays 
+    fig,ax = plt.subplots(1,1) #for P vs z plot
+    dist = []
+
+    #STEP 3: get the allow k values from selected k values 
+    #loop over cuts 
+    for i, cut_str in enumerate(cuts_string):
+        print(cut_str," vs ",cuts[i]) 
+        model_dir3b = cut_dirb+"/cut_"+cut_str  
+        #print("input dir:",model_dir3b)
+        spectra_listb = listGrab(model_dir3b) 
+        #get the all k values from first file for each cut
+        first_file = spectra_listb[0]
+        first_fileDir = model_dir3b+"/"+first_file
+        first_data = loadIn(first_fileDir)
+        chosen_k = wanted_k
+        #print("chosen wavenumbers:",chosen_k) 
+        interval_list = [] #create time-interval list for the wavenumber loop 
+
+        #STEP 4: get power for each z fixing k, cut, and model
+        #loop over chosen k
+        for j, k in enumerate(chosen_k):
+            start = time.time() #begin timer 
+            print("z_string:",z_string)
+            #loop over redshifts  
+            for n, z_str in enumerate(z_string):
+                cut_dir = model_dir+"z="+z_str
+                print("cut_dir",cut_dir) 
+                model_dir3 = cut_dir+"/cut_"+cut_str  
+                print("modeldir3:",model_dir3)
+                spectra_list = listGrab(model_dir3) 
+                #print("input dir:",model_dir3)
+                #get max power 
+                max_dir = cut_dir+"/cut_"+maxCut
+                max_file = listGrab(max_dir)[0] #returns a list therefore get first and only element 
+                max_dir = max_dir+"/"+max_file
+                max_data = loadIn(max_dir)
+                max_data.astype(float)
+                powerMax = PowerFinder(max_data,k)
+                #get the average power from all data files in the cut at specific z (fixed k, model, and cut) 
+                P_temp = [] #temporary list for power data (from the spectra files)
+                #loop over all the spectra files
+                for g, data_file in enumerate(spectra_list):
+                    data_dir = model_dir3+"/"+data_file
+                    data = loadIn(data_dir) 
+                    powerData = PowerFinder(data,k)
+                    P_temp.append(powerData)
+                #take the average and STD of all temporary powers for the specific z
+                avgPower = sum(P_temp)/len(P_temp)
+                stdPower = np.std(P_temp) 
+                Pstd_p = avgPower+stdPower 
+                Pstd_n = avgPower-stdPower 
+                deltaP = abs(powerMax-avgPower)/stdPower
+                #print("Max, avg, std:",powerMax,avgPower,stdPower)
+                std = stdPower/avgPower #use this instead of simply the power std 
+                gauss = np.random.normal(deltaP,std,1000) 
+                dist.append(gauss)
+                #end redshift loop
+            #in wavenumber loop
+            end = time.time() #end time  
+            interval = end-start 
+            interval_list.append(interval)
+        #in cut loop 
+    #in model loop
+    ax.violinplot(dist,cuts,widths=12,showmeans=True)
+    #plot the data for the cut
+    ax.set_title(str(model_name)+" z="+str(z_string[0])+" k="+str(k))
+    ax.set_xlabel("Mpc/h") 
+    ax.set_ylabel("Delta Power") 
+    #change major ticks to match the cuts 
+    major_ticks = cuts 
+    ax.set_xticks(major_ticks)
+    #output the plot in the output directory
+    os.chdir(output_dir1) #change to intended output directory
+    #output plot
+    fig.show()
+    outfile = str(model_name)+"_k="+str(k)+"_z="+str(z_string[0])+".pdf"
+    fig.savefig(outfile,format='pdf')
+    print("output plot: ",outfile)
+    os.chdir(current_dir) #return to current directory
+    #in model loop
+    avg_interval = sum(interval_list)/len(interval_list)
+    print("Average wavenumber computation time:",avg_interval," seconds")
+    #end of model for loop
+
+print("\n \n ")
