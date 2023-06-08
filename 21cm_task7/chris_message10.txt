@@ -1,0 +1,21 @@
+TASK 7 REVISED:
+
+SUBTRASK 1: get 1Gpc/h contour maps (without density fields)   
+
+SUBTASK 1: get 1Gpc/h plots
+In order to acquire the multiplots for the 1 Gpc/h box, create cuts 100,200,300,400,500 (noting that the num cells is 1024). Also check that the 500 cut is working properly (appears to have std = 0, so likely it is chosing the same subvolume each time, therefore may need to adjust the step or soemthing). 
+
+SUBTASK 2: Create violin plots  
+Only do this for the 1Gpc/h box (NOT REPEAT NOT THE 300 mpc/h box!!) 
+When making the violin plots, use the following for the guassian distribution):
+	mean = abs(Pavg/Pmax -1)
+	std = std of P / Pavg
+where P is each power value (thus need to iterate through all)  
+
+SUBTASK 3: Paper edits
+Remove all 300 Mpc/h multiplots save for cut 150 (PvsK), cut 75 (PvsK) and cut 75 (PvsZ), with the latter showing the dependence on redshift importantly. 
+There is no need for appedices in the paper and thus remove them.  
+Also, no need to include density field plots. 
+
+ADDENDUM 1:
+stradivarius.py for the 300Mpc/h program was aborted and thus discarded 

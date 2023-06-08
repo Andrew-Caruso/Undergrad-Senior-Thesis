@@ -19,6 +19,10 @@ Just like the power vs redshift plots for a particular plot, choose a particular
 Should be similar to figure in "Minimum size of 21-cm simulations" or smallBox.pdf under task 1
  
 
+THIRD:
+Make multi-plots for each cut for both big and small box simulations (for the overleaf paper)
+
+
 ADDENDUM 1:
 Resolved first part by selecting 6.6 instead of 6.5, given the 6.5 is closer to 06.6465 than 06.3501 (from the data).  
 
@@ -26,5 +30,13 @@ Resolved first part by selecting 6.6 instead of 6.5, given the 6.5 is closer to 
 ADDENDUM 2:
 For the violin plots, would you like me to chose k=0.2 and z=6.5 for both the small and large boxes?
 I think for the small boxes use z = 7 and for the big ones use z = 6.5 and k = 0.2 for both
+
+ADDENDUM 3:
+IMPORTANT: swtich from TG-PHY210041 project to TG-PHY230063 project
+because of following error:
+“sbatch: error: Project balance is not enough to run the job.
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user’s size and/or time limits)”
+I looked at the allocations usage on ACCESS and the “SDSC Dell Cluster with AMD Rome HDR IB (Expanse)” shows 100% used (i.e. 299971.0 / 299972.0 Core-hours).
+
 
 
