@@ -181,6 +181,7 @@ for m, model_dir in enumerate(emissivity_models):
     #create blank canvas/plot and default arrays 
     fig,ax = plt.subplots(1,1) #for P vs z plot
     dist = []
+    dataCollection = []
 
     #STEP 3: get the allow k values from selected k values 
     #loop over cuts 
@@ -219,6 +220,7 @@ for m, model_dir in enumerate(emissivity_models):
                 powerMax = PowerFinder(max_data,k)
                 #get the average power from all data files in the cut at specific z (fixed k, model, and cut) 
                 P_temp = [] #temporary list for power data (from the spectra files)
+                ratioPower = [] #will store P/Pavg 
                 #loop over all the spectra files
                 for g, data_file in enumerate(spectra_list):
                     data_dir = model_dir3+"/"+data_file
@@ -230,11 +232,18 @@ for m, model_dir in enumerate(emissivity_models):
                 stdPower = np.std(P_temp) 
                 Pstd_p = avgPower+stdPower 
                 Pstd_n = avgPower-stdPower 
-                deltaP = abs(powerMax-avgPower)/stdPower
-                #print("Max, avg, std:",powerMax,avgPower,stdPower)
-                std = stdPower/avgPower #use this instead of simply the power std 
+                #loop over all the spectra files AGAIN
+                for g, data_file in enumerate(spectra_list):
+                    data_dir = model_dir3+"/"+data_file
+                    data = loadIn(data_dir) 
+                    powerData = PowerFinder(data,k)
+                    ratioPower.append(powerData/avgPower) #P/Pavg 
+                std = np.std(ratioPower) #std for distribution is the std of P/Pavg 
+                deltaP = abs(avgPower/powerMax-1) #mean for distribution is abs(Pavg/Pmax-1) 
+                print("Mean, std:",deltaP,std)
                 gauss = np.random.normal(deltaP,std,1000) 
                 dist.append(gauss)
+
                 #end redshift loop
             #in wavenumber loop
             end = time.time() #end time  
@@ -243,6 +252,7 @@ for m, model_dir in enumerate(emissivity_models):
         #in cut loop 
     #in model loop
     ax.violinplot(dist,cuts,widths=12,showmeans=True)
+    #ax.violinplot(dataCollection,cuts,widths=12,showmeans=True)
     #plot the data for the cut
     ax.set_title(str(model_name)+" z="+str(z_string[0])+" k="+str(k))
     ax.set_xlabel("Mpc/h") 

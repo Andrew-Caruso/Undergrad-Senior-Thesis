@@ -18,4 +18,4 @@ There is no need for appedices in the paper and thus remove them.
 Also, no need to include density field plots. 
 
 ADDENDUM 1:
-stradivarius.py for the 300Mpc/h program was aborted and thus discarded 
+stradivarius.py for the 300Mpc/h program was aborted but NOT discarded, since it was used to test how to make the plots (since generating the new subvolume fields and power spectra the new cuts is taking time). 
