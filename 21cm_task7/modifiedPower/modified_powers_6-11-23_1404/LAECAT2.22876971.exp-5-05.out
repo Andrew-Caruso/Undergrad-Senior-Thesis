@@ -1,0 +1,65 @@
+
+The following have been reloaded with a version change:
+  1) cpu/0.17.3b => cpu/0.15.4
+
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/violinPlots EXISTS
+democratic
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/violinPlots/democratic EXISTS
+100  vs  100.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_100
+Mean, std: 0.12075854905878314 0.20675528937358542
+75  vs  75.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_75
+Mean, std: 0.19945865970379473 0.2544546342196017
+150  vs  150.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/democratic/z=07.0445/cut_150
+Mean, std: 0.027471351449365966 0.037190405230915075
+output plot:  democratic_k=0.2_z=07.0445.pdf
+Average wavenumber computation time: 0.16671204566955566  seconds
+fiducial
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/violinPlots/fiducial EXISTS
+75  vs  75.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_75
+Mean, std: 0.2103688655182847 0.17403508781526555
+150  vs  150.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_150
+Mean, std: 0.046485611250363656 0.042252527196027796
+100  vs  100.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/fiducial/z=07.0445/cut_100
+Mean, std: 0.15911356342507477 0.19841079407529524
+output plot:  fiducial_k=0.2_z=07.0445.pdf
+Average wavenumber computation time: 0.34026169776916504  seconds
+oligarchic
+/expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/violinPlots/oligarchic EXISTS
+75  vs  75.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_75
+Mean, std: 0.13866813202099815 0.14866586129618947
+100  vs  100.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_100
+Mean, std: 0.09498032178261528 0.12654024936454344
+150  vs  150.0
+z_string: ['07.0445']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/modified_powers/21cm_spectra_subVolumes/oligarchic/z=07.0445/cut_150
+Mean, std: 0.019320338527238468 0.028884707475864482
+output plot:  oligarchic_k=0.2_z=07.0445.pdf
+Average wavenumber computation time: 0.26839113235473633  seconds
+
+ 
+ 
