@@ -1,0 +1,542 @@
+
+The following have been reloaded with a version change:
+  1) cpu/0.17.3b => cpu/0.15.4
+
+make_500_subvolumes.py:148: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  z_arr_str = np.array([z_str0,z_str1])
+z_arr_str: [list(['09.3630', '06.0808', '10.9497', '08.2154', '07.7506', '06.9746', '06.3501', '10.0859', '08.7473', '06.6465', '07.3402'])
+ list(['09.3630', '07.3402', '05.0000', '06.6465', '05.8348', '08.2154', '08.7473', '06.9746', '06.3501', '05.6090', '10.0859', '07.7506', '10.9497', '06.0808', '05.4009'])]
+std weight: 0.1
+step size: 512
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/
+cut:  500
+0.99967855
+0.99979794
+0.9994206
+0.99921703
+1.0012732
+1.0017319
+1.0016272
+0.99726385
+CosmicDensity±STD: 1.0001407459494658  to  0.9998592540505342
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=09.3630/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/
+cut:  500
+0.9995098
+0.9997012
+0.9991645
+0.9988481
+1.0018797
+1.0025356
+1.0023755
+0.99598664
+CosmicDensity±STD: 1.000206358009018  to  0.999793641990982
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.0808/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/
+cut:  500
+0.99972445
+0.9998234
+0.9994936
+0.9993204
+1.0011001
+1.0015011
+1.0014088
+0.9976294
+CosmicDensity±STD: 1.0001219288329595  to  0.9998780711670406
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.9497/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/
+cut:  500
+0.99963194
+0.99977094
+0.9993489
+0.9991188
+1.0014368
+1.0019478
+1.0018269
+0.9969212
+CosmicDensity±STD: 1.0001583637902514  to  0.9998416362097486
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.2154/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/
+cut:  500
+0.9996104
+0.9997621
+0.9993178
+0.9990679
+1.0015135
+1.0020503
+1.0019242
+0.99675655
+CosmicDensity±STD: 1.0001668049953878  to  0.9998331950046122
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.7506/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/
+cut:  500
+0.99957025
+0.99973685
+0.9992523
+0.9989779
+1.0016639
+1.0022532
+1.0021135
+0.99644065
+CosmicDensity±STD: 1.0001831624191255  to  0.9998168375808746
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.9746/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/
+cut:  500
+0.9995287
+0.99971664
+0.9991937
+0.99888474
+1.00181
+1.0024447
+1.0022906
+0.99613464
+CosmicDensity±STD: 1.0001988620730118  to  0.9998011379269883
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.3501/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/
+cut:  500
+0.9997004
+0.9998095
+0.99945235
+0.9992625
+1.0011916
+1.0016159
+1.001518
+0.9974457
+CosmicDensity±STD: 1.0001314802910202  to  0.9998685197089798
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=10.0859/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/
+cut:  500
+0.9996557
+0.9997865
+0.9993802
+0.99916434
+1.0013559
+1.0018411
+1.0017302
+0.9970889
+CosmicDensity±STD: 1.0001497607911005  to  0.9998502392088995
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=08.7473/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/
+cut:  500
+0.99955165
+0.9997252
+0.9992204
+0.9989292
+1.0017402
+1.0023483
+1.0022019
+0.9962862
+CosmicDensity±STD: 1.000191097066272  to  0.9998089029337279
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=06.6465/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/
+cut:  500
+0.99958813
+0.9997473
+0.99928457
+0.99902356
+1.0015912
+1.002154
+1.0020154
+0.9965963
+CosmicDensity±STD: 1.0001750620896928  to  0.9998249379103072
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/oligarchic/z=07.3402/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/
+cut:  500
+0.99967855
+0.99979794
+0.9994206
+0.99921703
+1.0012732
+1.0017319
+1.0016272
+0.99726385
+CosmicDensity±STD: 1.0001407459494658  to  0.9998592540505342
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=09.3630/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/
+cut:  500
+0.99958813
+0.9997473
+0.99928457
+0.99902356
+1.0015912
+1.002154
+1.0020154
+0.9965963
+CosmicDensity±STD: 1.0001750620896928  to  0.9998249379103072
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.3402/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+skipped z:  5.0000
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/
+cut:  500
+0.99955165
+0.9997252
+0.9992204
+0.9989292
+1.0017402
+1.0023483
+1.0022019
+0.9962862
+CosmicDensity±STD: 1.000191097066272  to  0.9998089029337279
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.6465/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/
+cut:  500
+0.9994885
+0.9996931
+0.9991346
+0.9988017
+1.0019493
+1.002628
+1.0024601
+0.99584305
+CosmicDensity±STD: 1.0002138314535842  to  0.9997861685464159
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.8348/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/
+cut:  500
+0.99963194
+0.99977094
+0.9993489
+0.9991188
+1.0014368
+1.0019478
+1.0018269
+0.9969212
+CosmicDensity±STD: 1.0001583637902514  to  0.9998416362097486
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.2154/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/
+cut:  500
+0.9996557
+0.9997865
+0.9993802
+0.99916434
+1.0013559
+1.0018411
+1.0017302
+0.9970889
+CosmicDensity±STD: 1.0001497607911005  to  0.9998502392088995
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=08.7473/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/
+cut:  500
+0.99957025
+0.99973685
+0.9992523
+0.9989779
+1.0016639
+1.0022532
+1.0021135
+0.99644065
+CosmicDensity±STD: 1.0001831624191255  to  0.9998168375808746
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.9746/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/
+cut:  500
+0.9995287
+0.99971664
+0.9991937
+0.99888474
+1.00181
+1.0024447
+1.0022906
+0.99613464
+CosmicDensity±STD: 1.0001988620730118  to  0.9998011379269883
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.3501/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/
+cut:  500
+0.99946797
+0.99968064
+0.9991079
+0.99876255
+1.0020171
+1.0027179
+1.0025476
+0.9957016
+CosmicDensity±STD: 1.000221173814498  to  0.9997788261855021
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.6090/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/
+cut:  500
+0.9997004
+0.9998095
+0.99945235
+0.9992625
+1.0011916
+1.0016159
+1.001518
+0.9974457
+CosmicDensity±STD: 1.0001314802910202  to  0.9998685197089798
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.0859/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/
+cut:  500
+0.9996104
+0.9997621
+0.9993178
+0.9990679
+1.0015135
+1.0020503
+1.0019242
+0.99675655
+CosmicDensity±STD: 1.0001668049953878  to  0.9998331950046122
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=07.7506/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/
+cut:  500
+0.99972445
+0.9998234
+0.9994936
+0.9993204
+1.0011001
+1.0015011
+1.0014088
+0.9976294
+CosmicDensity±STD: 1.0001219288329595  to  0.9998780711670406
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=10.9497/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/
+cut:  500
+0.9995098
+0.9997012
+0.9991645
+0.9988481
+1.0018797
+1.0025356
+1.0023755
+0.99598664
+CosmicDensity±STD: 1.000206358009018  to  0.999793641990982
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=06.0808/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/
+cut:  500
+0.99944985
+0.99967176
+0.99908286
+0.9987198
+1.0020864
+1.0028068
+1.0026313
+0.9955577
+CosmicDensity±STD: 1.0002285254420713  to  0.9997714745579287
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.0:512,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.0:512,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.0:512,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.0:512,512:1024,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.512:1024,0:512,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.512:1024,0:512,512:1024
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.512:1024,512:1024,0:512
+CREATING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_fields_500subs/extreme/z=05.4009/cut_500/t21_field.512:1024,512:1024,512:1024
+For N= 512  Save count: 8  VS permutations: 8
+
+TASK COMPLETED
+
