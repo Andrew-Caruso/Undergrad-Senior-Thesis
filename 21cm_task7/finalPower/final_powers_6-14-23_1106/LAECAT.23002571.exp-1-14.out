@@ -1,0 +1,68 @@
+
+The following have been reloaded with a version change:
+  1) cpu/0.17.3b => cpu/0.15.4
+
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/violinPlots
+/expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/   /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_500subs/oligarchic/
+oligarchic
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/violinPlots/oligarchic
+300  vs  300.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465/cut_300
+Mean, std: 0.03268774111191375 0.03693261407945527
+100  vs  100.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465/cut_100
+Mean, std: 0.10431529771105896 0.10611482475339427
+200  vs  200.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465/cut_200
+Mean, std: 0.3068276231226562 0.08715610251059064
+500  vs  500.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_500subs/oligarchic/z=06.6465/cut_500
+Mean, std: 0.01894882875590964 0.020362229945853714
+400  vs  400.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/oligarchic/z=06.6465/cut_400
+Mean, std: 0.28292895338542234 0.04072878679281235
+output plot:  oligarchic_k=0.2_z=06.6465.pdf
+Average wavenumber computation time: 0.09262204170227051  seconds
+/expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/   /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_500subs/extreme/
+extreme
+MAKING /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/violinPlots/extreme
+500  vs  500.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_500subs/extreme/z=06.6465/cut_500
+Mean, std: 0.022056679145198044 0.020308668567990185
+300  vs  300.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_300
+Mean, std: 0.010374651537255364 0.029072194129063186
+200  vs  200.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_200
+Mean, std: 0.22535666890457962 0.08101567187157628
+400  vs  400.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_400
+Mean, std: 0.22129039774330517 0.06616953383933172
+100  vs  100.0
+z_string: ['06.6465']
+cut_dir /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465
+modeldir3: /expanse/lustre/scratch/andrewcaruso/temp_project/final_powers/21cm_spectra_subVolumes/extreme/z=06.6465/cut_100
+Mean, std: 0.07590520324535932 0.09941721217736535
+output plot:  extreme_k=0.2_z=06.6465.pdf
+Average wavenumber computation time: 1.2452170848846436  seconds
+
+ 
+ 
