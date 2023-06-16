@@ -17,9 +17,31 @@ Remove all 300 Mpc/h multiplots save for cut 150 (PvsK), cut 75 (PvsK) and cut 7
 There is no need for appedices in the paper and thus remove them.  
 Also, no need to include density field plots. 
 
+
+
 ADDENDUM 1:
 stradivarius.py for the 300Mpc/h program was aborted but NOT discarded, since it was used to test how to make the plots (since generating the new subvolume fields and power spectra the new cuts is taking time). 
+
+
 
 ADDENDUM 2:
 Because only 1 subvolume for the 500 cut is selected from the comsic density cirterion when creating and selecting subvolumes in make_subvolumes.py
 Therefore, separately generate the 500 cut fields and power spectra without the comsic density criterion and then implement into the convergence tests (1 and 2) and violin plots via if statements 
+
+
+ADDENEDUM 3:
+Issue with the 200 and 400 cuts (both PvsK and PvsZ plots as well as violin plots) being oddly off
+Suggested solution is to not do linear interpolation of P and K but linear interpolation of log(P) and log(K)
+
+"I found a previous note that I left myself in the code for making the PvsK plots, that the 400 cut did not have corresponding k values to the selected k values. So I had to use interpolation via scipy.interpolate.interp1d. However, all the other plotting programs also rely on interpolation to get the power values." - Andrew 
+
+"if you are interpolating power vs. k I would interpolate in log space
+meaning, a linear interpolation of log(P) vs. log(k)
+linear interpolation of P vs. k might make weird things happen 
+it's because the relationship between P and k is usually very non-linear
+but generally a power law is a good local approximation
+and log P vs. log k assumes a power law" - Chris 
+
+No other inconsistencies in the code has been found. 
+
+
